@@ -13,6 +13,7 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 from openai import OpenAI
 import pdfplumber
+from rag_backend import RAGBackend
 
 # Set page configuration
 st.set_page_config(
@@ -39,11 +40,12 @@ st.markdown("""
         border-bottom: 1px solid #dee2e6;
     }
     .answer-container {
-        background-color: #f0f7ff;
+        background-color: #1e1e1e;
         border-left: 4px solid #4a6fa5;
         padding: 1rem;
         margin-bottom: 1.5rem;
         border-radius: 0 4px 4px 0;
+        color: #ffffff;
     }
     .index-item {
         background-color: #f8f9fa;
@@ -66,14 +68,12 @@ def initialize_directories():
 
 indices_folder, pdf_folder = initialize_directories()
 
-# Initialize embedding model
+# Initialize RAG backend
 @st.cache_resource
-def load_embedding_model():
-    embedder = SentenceTransformer('all-MiniLM-L6-v2')
-    embedding_dim = embedder.get_sentence_embedding_dimension()
-    return embedder, embedding_dim
+def initialize_rag_backend():
+    return RAGBackend()
 
-embedder, embedding_dim = load_embedding_model()
+rag_backend = initialize_rag_backend()
 
 # Initialize OpenAI client
 def initialize_openai_client():
@@ -87,18 +87,12 @@ def initialize_openai_client():
 # Session state initialization
 if 'documents' not in st.session_state:
     st.session_state.documents = []
-if 'index' not in st.session_state:
-    st.session_state.index = None
-if 'doc_embeddings' not in st.session_state:
-    st.session_state.doc_embeddings = None
 if 'current_index_name' not in st.session_state:
     st.session_state.current_index_name = None
 if 'crawled_urls' not in st.session_state:
     st.session_state.crawled_urls = []
 if 'openai_api_key' not in st.session_state:
     st.session_state.openai_api_key = ""
-
-# Helper Functions
 
 def crawl_website(start_url, max_pages=50, progress_callback=None):
     visited = set()
@@ -201,30 +195,6 @@ def process_pdf(pdf_file, progress_callback=None):
     
     return documents
 
-def create_faiss_index(documents):
-    texts = [doc["content"] for doc in documents]
-    
-    with st.spinner("Generating embeddings... This might take a moment."):
-        embeddings = embedder.encode(texts, show_progress_bar=True)
-        
-    # Convert embeddings to float32 and create index
-    embeddings = np.array(embeddings).astype("float32")
-    index = faiss.IndexFlatL2(embedding_dim)  # using L2 similarity
-    index.add(embeddings)
-    return index, embeddings
-
-def search_index(query, k=3):
-    if st.session_state.index is None:
-        return []
-    
-    query_vec = embedder.encode([query]).astype("float32")
-    distances, indices = st.session_state.index.search(query_vec, k)
-    results = []
-    for idx in indices[0]:
-        if idx < len(st.session_state.documents):
-            results.append(st.session_state.documents[idx])
-    return results
-
 def generate_answer(query, retrieved_docs):
     client = initialize_openai_client()
     
@@ -250,70 +220,6 @@ def generate_answer(query, retrieved_docs):
         st.error(f"OpenAI API error: {e}")
         answer = f"Sorry, I could not generate an answer at this time. Error: {str(e)}"
     return answer
-
-def save_index(index_name):
-    if st.session_state.index is None or not st.session_state.documents:
-        return False, "No index to save. Please crawl a website first."
-    
-    # Create a unique index name if none provided
-    if not index_name:
-        index_name = f"index_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
-    
-    # Create directory for this index
-    index_dir = os.path.join(indices_folder, index_name)
-    os.makedirs(index_dir, exist_ok=True)
-    
-    try:
-        # Save the FAISS index
-        faiss.write_index(st.session_state.index, os.path.join(index_dir, "index.faiss"))
-        
-        # Save the document embeddings
-        with open(os.path.join(index_dir, "embeddings.npy"), 'wb') as f:
-            np.save(f, st.session_state.doc_embeddings)
-        
-        # Save the documents
-        with open(os.path.join(index_dir, "documents.json"), 'w', encoding='utf-8') as f:
-            json.dump(st.session_state.documents, f, ensure_ascii=False, indent=2)
-        
-        # Save metadata
-        metadata = {
-            "created_at": datetime.now().isoformat(),
-            "document_count": len(st.session_state.documents),
-            "embedding_dimension": embedding_dim,
-            "first_url": st.session_state.documents[0]["url"] if st.session_state.documents else "Unknown"
-        }
-        with open(os.path.join(index_dir, "metadata.json"), 'w') as f:
-            json.dump(metadata, f, indent=2)
-        
-        st.session_state.current_index_name = index_name
-        return True, f"Index saved successfully as '{index_name}'"
-        
-    except Exception as e:
-        return False, f"Error saving index: {str(e)}"
-
-def load_index(index_name):
-    index_dir = os.path.join(indices_folder, index_name)
-    
-    if not os.path.exists(index_dir):
-        return False, f"Index '{index_name}' not found."
-    
-    try:
-        # Load the FAISS index
-        st.session_state.index = faiss.read_index(os.path.join(index_dir, "index.faiss"))
-        
-        # Load the document embeddings
-        with open(os.path.join(index_dir, "embeddings.npy"), 'rb') as f:
-            st.session_state.doc_embeddings = np.load(f)
-        
-        # Load the documents
-        with open(os.path.join(index_dir, "documents.json"), 'r', encoding='utf-8') as f:
-            st.session_state.documents = json.load(f)
-        
-        st.session_state.current_index_name = index_name
-        return True, f"Successfully loaded index '{index_name}' with {len(st.session_state.documents)} documents."
-        
-    except Exception as e:
-        return False, f"Error loading index: {str(e)}"
 
 def get_available_indices():
     indices = []
@@ -346,7 +252,6 @@ def get_available_indices():
     return indices
 
 # Main App UI
-
 st.title("WebRAG - Website Question Answering System")
 st.write("Crawl websites or upload PDFs, then ask questions about the content.")
 
@@ -379,6 +284,29 @@ with st.sidebar.expander("OpenAI API Settings"):
             else:
                 st.error("Please enter a valid API key")
 
+# Chunking Settings
+with st.sidebar.expander("Chunking Settings", expanded=True):
+    chunk_size = st.number_input(
+        "Chunk Size",
+        min_value=100,
+        max_value=2000,
+        value=500,
+        step=100,
+        help="Number of characters per chunk"
+    )
+    
+    chunk_overlap = st.number_input(
+        "Chunk Overlap",
+        min_value=0,
+        max_value=chunk_size - 50,
+        value=min(200, chunk_size - 50),
+        step=50,
+        help="Number of characters that overlap between chunks"
+    )
+    
+    # Update backend chunking parameters when they change
+    rag_backend.set_chunking_params(chunk_size, chunk_overlap)
+
 # Main Tabs
 tab1, tab2, tab3, tab4 = st.tabs(["Crawl Website", "Upload PDF", "Ask Questions", "Manage Indices"])
 
@@ -402,20 +330,22 @@ with tab1:
         st.subheader("Crawl Progress")
         
         # Crawl the website
-        st.session_state.documents = crawl_website(website_url, max_pages=max_pages, progress_callback=update_crawl_status)
+        documents = crawl_website(website_url, max_pages=max_pages, progress_callback=update_crawl_status)
         
-        if not st.session_state.documents:
+        if not documents:
             st.error("No pages were crawled. Please try a different URL.")
         else:
-            st.success(f"Crawled {len(st.session_state.documents)} pages from: {website_url}")
+            st.success(f"Crawled {len(documents)} pages from: {website_url}")
             
             # Create FAISS index for the crawled documents
-            st.session_state.index, st.session_state.doc_embeddings = create_faiss_index(st.session_state.documents)
+            rag_backend.create_index(documents, show_progress=True)
+            st.session_state.documents = rag_backend.documents
             
             # Save the index if a name was provided
             if index_name:
-                success, message = save_index(index_name)
+                success, message = rag_backend.save_index(indices_folder, index_name)
                 if success:
+                    st.session_state.current_index_name = index_name
                     st.success(message)
                 else:
                     st.error(message)
@@ -444,20 +374,22 @@ with tab2:
             st.subheader("Processing Progress")
             
             # Process the PDF
-            st.session_state.documents = process_pdf(uploaded_file, progress_callback=update_pdf_status)
+            documents = process_pdf(uploaded_file, progress_callback=update_pdf_status)
             
-            if not st.session_state.documents:
+            if not documents:
                 st.error("Could not extract text from the PDF. The file might be empty or protected.")
             else:
-                st.success(f"Processed {len(st.session_state.documents)} pages from PDF: {uploaded_file.name}")
+                st.success(f"Processed {len(documents)} pages from PDF: {uploaded_file.name}")
                 
                 # Create FAISS index for the extracted text
-                st.session_state.index, st.session_state.doc_embeddings = create_faiss_index(st.session_state.documents)
+                rag_backend.create_index(documents, show_progress=True)
+                st.session_state.documents = rag_backend.documents
                 
                 # Save the index if a name was provided
                 if pdf_index_name:
-                    success, message = save_index(pdf_index_name)
+                    success, message = rag_backend.save_index(indices_folder, pdf_index_name)
                     if success:
+                        st.session_state.current_index_name = pdf_index_name
                         st.success(message)
                     else:
                         st.error(message)
@@ -472,7 +404,7 @@ with tab2:
 with tab3:
     st.header("Ask Questions")
     
-    if st.session_state.index is None:
+    if rag_backend.index is None:
         st.warning("Please crawl a website, upload a PDF, or load an index first.")
     else:
         query = st.text_input("Ask a question", placeholder="What is...?")
@@ -480,7 +412,7 @@ with tab3:
         
         if st.button("Ask Question") and query:
             # Retrieve similar documents using the FAISS index
-            retrieved_docs = search_index(query, k=3)
+            retrieved_docs = rag_backend.search(query, k=3)
             
             # Generate answer if requested
             if generate:
@@ -525,8 +457,10 @@ with tab4:
             
             with col2:
                 if st.button("Load", key=f"load_{idx['name']}"):
-                    success, message = load_index(idx['name'])
+                    success, message = rag_backend.load_index(indices_folder, idx['name'])
                     if success:
+                        st.session_state.current_index_name = idx['name']
+                        st.session_state.documents = rag_backend.documents
                         st.success(message)
                         st.rerun()
                     else:

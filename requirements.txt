@@ -6,3 +6,4 @@ openai
 pdfplumber
 beautifulsoup4
 requests
+langchain-text-splitters
