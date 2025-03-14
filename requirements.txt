@@ -1,0 +1,8 @@
+streamlit
+faiss-cpu
+numpy
+sentence-transformers
+openai
+pdfplumber
+beautifulsoup4
+requests
