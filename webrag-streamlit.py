@@ -504,7 +504,7 @@ with tab4:
     st.header("Manage Saved Indices")
     
     if st.button("Refresh Indices"):
-        st.experimental_rerun()
+        st.rerun()
     
     indices = get_available_indices()
     
@@ -528,7 +528,7 @@ with tab4:
                     success, message = load_index(idx['name'])
                     if success:
                         st.success(message)
-                        st.experimental_rerun()
+                        st.rerun()
                     else:
                         st.error(message)
                 
@@ -540,7 +540,7 @@ with tab4:
                                 index_dir = os.path.join(indices_folder, idx['name'])
                                 shutil.rmtree(index_dir)
                                 st.success(f"Index '{idx['name']}' deleted successfully")
-                                st.experimental_rerun()
+                                st.rerun()
                             except Exception as e:
                                 st.error(f"Error deleting index: {str(e)}")
                             finally:
