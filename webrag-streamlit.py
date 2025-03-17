@@ -13,7 +13,16 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 from openai import OpenAI
 import pdfplumber
+from nltk.tokenize import word_tokenize
+from rank_bm25 import BM25Okapi
 from rag_backend import RAGBackend
+
+# Make sure NLTK tokenizer is available
+import nltk
+try:
+    nltk.data.find('tokenizers/punkt')
+except LookupError:
+    nltk.download('punkt')
 
 # Set page configuration
 st.set_page_config(
@@ -84,6 +93,12 @@ def initialize_openai_client():
         return OpenAI(api_key=api_key)
     return None
 
+# Utility function to generate index names
+def generate_index_name(prefix="index"):
+    """Generate a unique index name with timestamp"""
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    return f"{prefix}_{timestamp}"
+
 # Session state initialization
 if 'documents' not in st.session_state:
     st.session_state.documents = []
@@ -93,6 +108,8 @@ if 'crawled_urls' not in st.session_state:
     st.session_state.crawled_urls = []
 if 'openai_api_key' not in st.session_state:
     st.session_state.openai_api_key = ""
+if 'current_tab' not in st.session_state:
+    st.session_state.current_tab = 0
 
 def crawl_website(start_url, max_pages=50, progress_callback=None):
     visited = set()
@@ -196,30 +213,42 @@ def process_pdf(pdf_file, progress_callback=None):
     return documents
 
 def generate_answer(query, retrieved_docs):
+    # Use the RAG backend's generate_answer_with_openai function
     client = initialize_openai_client()
     
     # Return error message if API key is missing
     if client is None:
         return "Error: OpenAI API key not configured. Please enter your API key in the settings tab."
     
-    # Concatenate the documents as context
-    context = "\n\n".join([f"URL: {doc['url']}\nContent: {doc['content'][:500]}..." for doc in retrieved_docs])
+    # Set OpenAI client if needed
+    if rag_backend.openai_client is None:
+        rag_backend.set_openai_client(client)
+    
+    # Extract content from docs
+    retrieved_chunks = [doc["content"] for doc in retrieved_docs]
+    scores = np.ones(len(retrieved_chunks))  # Default scores if not using hybrid search
     
     try:
-        response = client.chat.completions.create(
-            model="gpt-4o-mini",  # You can change this to other models as needed
-            messages=[
-                {"role": "system", "content": "You are an expert on summarizing web content. Format your answers using Markdown where appropriate: use **bold** for emphasis, headings with #, lists with - or 1., and `code` for technical terms. Include at least one structured element in your response."},
-                {"role": "user", "content": f"Answer the following question based on the context provided.\n\nContext:\n{context}\n\nQuestion: {query}\n\nAnswer:"}
-            ],
-            temperature=0.3,
-            max_tokens=300
-        )
-        answer = response.choices[0].message.content.strip()
+        return rag_backend.generate_answer_with_openai(query, retrieved_chunks, scores)
     except Exception as e:
-        st.error(f"OpenAI API error: {e}")
-        answer = f"Sorry, I could not generate an answer at this time. Error: {str(e)}"
-    return answer
+        # Fallback to original method if something goes wrong
+        context = "\n\n".join([f"URL: {doc['url']}\nContent: {doc['content'][:500]}..." for doc in retrieved_docs])
+        
+        try:
+            response = client.chat.completions.create(
+                model="gpt-4o-mini",
+                messages=[
+                    {"role": "system", "content": "You are an expert on summarizing web content. Format your answers using Markdown where appropriate: use **bold** for emphasis, headings with #, lists with - or 1., and `code` for technical terms. Include at least one structured element in your response."},
+                    {"role": "user", "content": f"Answer the following question based on the context provided.\n\nContext:\n{context}\n\nQuestion: {query}\n\nAnswer:"}
+                ],
+                temperature=0.3,
+                max_tokens=300
+            )
+            answer = response.choices[0].message.content.strip()
+        except Exception as e:
+            st.error(f"OpenAI API error: {e}")
+            answer = f"Sorry, I could not generate an answer at this time. Error: {str(e)}"
+        return answer
 
 def get_available_indices():
     indices = []
@@ -236,7 +265,8 @@ def get_available_indices():
                     "name": index_name,
                     "created_at": metadata.get("created_at", "Unknown"),
                     "document_count": metadata.get("document_count", 0),
-                    "first_url": metadata.get("first_url", "Unknown")
+                    "first_url": metadata.get("first_url", "Unknown"),
+                    "chunking_method": metadata.get("chunking_method", "recursive")
                 })
             except:
                 # If metadata not available, add minimal info
@@ -244,7 +274,8 @@ def get_available_indices():
                     "name": index_name,
                     "created_at": "Unknown",
                     "document_count": "Unknown",
-                    "first_url": "Unknown"
+                    "first_url": "Unknown",
+                    "chunking_method": "Unknown"
                 })
     
     # Sort by name (could be changed to sort by date if preferred)
@@ -269,8 +300,11 @@ with st.sidebar.expander("OpenAI API Settings"):
                            help="Required for generating answers using GPT models")
     if api_key:
         st.session_state.openai_api_key = api_key
+        client = initialize_openai_client()
+        # Set the OpenAI client in the RAG backend
+        rag_backend.set_openai_client(client)
+        
         if st.button("Test API Key"):
-            client = initialize_openai_client()
             if client:
                 try:
                     response = client.chat.completions.create(
@@ -286,30 +320,54 @@ with st.sidebar.expander("OpenAI API Settings"):
 
 # Chunking Settings
 with st.sidebar.expander("Chunking Settings", expanded=True):
+    chunking_method = st.selectbox(
+        "Chunking Method",
+        options=["semantic", "recursive"],
+        index=0,
+        help="Semantic: AI-based content-aware chunking (requires OpenAI API key), Recursive: traditional text splitting"
+    )
+    
     chunk_size = st.number_input(
         "Chunk Size",
         min_value=100,
         max_value=2000,
         value=500,
         step=100,
-        help="Number of characters per chunk"
+        help="Number of characters per chunk (for recursive chunking)",
+        disabled=(chunking_method == "semantic")
     )
     
     chunk_overlap = st.number_input(
         "Chunk Overlap",
         min_value=0,
-        max_value=chunk_size - 50,
-        value=min(200, chunk_size - 50),
+        max_value=chunk_size - 50 if chunking_method == "recursive" else 0,
+        value=min(200, chunk_size - 50) if chunking_method == "recursive" else 0,
         step=50,
-        help="Number of characters that overlap between chunks"
+        help="Number of characters that overlap between chunks (for recursive chunking)",
+        disabled=(chunking_method == "semantic")
     )
     
-    # Update backend chunking parameters when they change
-    rag_backend.set_chunking_params(chunk_size, chunk_overlap)
+    # Update backend chunking parameters
+    rag_backend.set_chunking_params(
+        chunk_size=chunk_size,
+        chunk_overlap=chunk_overlap,
+        method=chunking_method
+    )
 
-# Main Tabs
-tab1, tab2, tab3, tab4 = st.tabs(["Crawl Website", "Upload PDF", "Ask Questions", "Manage Indices"])
+# Search Settings
+with st.sidebar.expander("Search Settings", expanded=True):
+    use_hybrid = st.checkbox(
+        "Use Hybrid Search",
+        value=True,
+        help="Combine BM25 keyword search with semantic search for better results"
+    )
 
+# Tab navigation - Fix for radio button error
+tab_options = ["Crawl Website", "Upload PDF", "Ask Questions", "Manage Indices"]
+  
+
+# Create tabs based on the list of tab options
+tab1, tab2, tab3, tab4 = st.tabs(tab_options)
 # Tab 1: Crawl Website
 with tab1:
     st.header("Crawl and Index a Website")
@@ -337,18 +395,31 @@ with tab1:
         else:
             st.success(f"Crawled {len(documents)} pages from: {website_url}")
             
-            # Create FAISS index for the crawled documents
+            # Create index for the crawled documents
+            client = initialize_openai_client()
+            if client and (chunking_method == "semantic" or st.session_state.get("openai_api_key")):
+                rag_backend.set_openai_client(client)
+                st.info("Using OpenAI for embeddings and semantic chunking")
+            
             rag_backend.create_index(documents, show_progress=True)
             st.session_state.documents = rag_backend.documents
             
-            # Save the index if a name was provided
-            if index_name:
-                success, message = rag_backend.save_index(indices_folder, index_name)
-                if success:
-                    st.session_state.current_index_name = index_name
-                    st.success(message)
-                else:
-                    st.error(message)
+            # Auto-generate index name if not provided
+            if not index_name:
+                domain = urlparse(website_url).netloc.replace(".", "_")
+                index_name = generate_index_name(f"web_{domain}")
+                st.info(f"Auto-generated index name: {index_name}")
+            
+            # Save the index
+            success, message = rag_backend.save_index(indices_folder, index_name)
+            if success:
+                st.session_state.current_index_name = index_name
+                st.success(message)
+                # Switch to Ask Questions tab
+                st.session_state.current_tab = 2  # Index for Ask Questions
+                st.rerun()
+            else:
+                st.error(message)
     
     # Show crawled URLs
     if st.session_state.crawled_urls:
@@ -381,18 +452,31 @@ with tab2:
             else:
                 st.success(f"Processed {len(documents)} pages from PDF: {uploaded_file.name}")
                 
-                # Create FAISS index for the extracted text
+                # Create index for the extracted text
+                client = initialize_openai_client()
+                if client and (chunking_method == "semantic" or st.session_state.get("openai_api_key")):
+                    rag_backend.set_openai_client(client)
+                    st.info("Using OpenAI for embeddings and semantic chunking")
+                
                 rag_backend.create_index(documents, show_progress=True)
                 st.session_state.documents = rag_backend.documents
                 
-                # Save the index if a name was provided
-                if pdf_index_name:
-                    success, message = rag_backend.save_index(indices_folder, pdf_index_name)
-                    if success:
-                        st.session_state.current_index_name = pdf_index_name
-                        st.success(message)
-                    else:
-                        st.error(message)
+                # Auto-generate index name if not provided
+                if not pdf_index_name:
+                    filename = uploaded_file.name.split(".")[0].replace(" ", "_")
+                    pdf_index_name = generate_index_name(f"pdf_{filename}")
+                    st.info(f"Auto-generated index name: {pdf_index_name}")
+                
+                # Save the index
+                success, message = rag_backend.save_index(indices_folder, pdf_index_name)
+                if success:
+                    st.session_state.current_index_name = pdf_index_name
+                    st.success(message)
+                    # Switch to Ask Questions tab
+                    st.session_state.current_tab = 2  # Index for Ask Questions
+                    st.rerun()
+                else:
+                    st.error(message)
     
     # Show processed pages
     if st.session_state.get('crawled_urls') and uploaded_file:
@@ -411,11 +495,15 @@ with tab3:
         generate = st.checkbox("Generate AI answer", value=True, help="Requires OpenAI API key")
         
         if st.button("Ask Question") and query:
-            # Retrieve similar documents using the FAISS index
-            retrieved_docs = rag_backend.search(query, k=3)
+            # Retrieve similar documents using the RAG backend (fixed at 3 results)
+            retrieved_docs = rag_backend.search(query, k=3, use_hybrid=use_hybrid)
             
             # Generate answer if requested
             if generate:
+                client = initialize_openai_client()
+                if client:
+                    rag_backend.set_openai_client(client)
+                
                 answer = generate_answer(query, retrieved_docs)
                 st.markdown("### Answer:")
                 st.markdown(f'<div class="answer-container">{answer}</div>', unsafe_allow_html=True)
@@ -454,6 +542,7 @@ with tab4:
                     st.write(f"Created: {idx['created_at']}")
                     st.write(f"Documents: {idx['document_count']}")
                     st.write(f"Source: {idx['first_url']}")
+                    st.write(f"Chunking Method: {idx.get('chunking_method', 'Unknown')}")
             
             with col2:
                 if st.button("Load", key=f"load_{idx['name']}"):
@@ -482,3 +571,19 @@ with tab4:
                         else:
                             st.session_state[f"confirm_delete_{idx['name']}"] = True
                             st.warning(f"Click Delete again to confirm removing '{idx['name']}'")
+
+# Add requirements section at the bottom
+st.sidebar.markdown("---")
+st.sidebar.markdown("### Required Packages")
+st.sidebar.markdown("""
+- streamlit
+- faiss-cpu
+- numpy
+- sentence-transformers
+- openai
+- pdfplumber
+- bs4
+- nltk
+- rank_bm25
+- chonkie[semantic,openai]
+""")

@@ -1,0 +1,796 @@
+Method,BM25_Weight,Semantic_Weight,Question,Precision@5,MRR,Hit@5,nDCG,Avg_Similarity
+SW_50,0.3,0.7,When was the inaugural Formula One World Championship season?,0.6,0.5,1,0.9503883755976139,0.61800385
+SW_50,0.5,0.5,When was the inaugural Formula One World Championship season?,0.6,1.0,1,0.975836594842273,0.6180038
+SW_50,0.7,0.30000000000000004,When was the inaugural Formula One World Championship season?,0.6,0.5,1,0.9140868380449902,0.6302762
+SW_20,0.3,0.7,When was the inaugural Formula One World Championship season?,0.2,0.2,1,0.9505315719743824,0.5257618
+SW_20,0.5,0.5,When was the inaugural Formula One World Championship season?,0.2,0.25,1,0.9385421254872426,0.5459207
+SW_20,0.7,0.30000000000000004,When was the inaugural Formula One World Championship season?,0.2,0.5,1,0.9468655124092652,0.5459207
+SW_0,0.3,0.7,When was the inaugural Formula One World Championship season?,0.2,0.5,1,0.9523341317564709,0.5443517
+SW_0,0.5,0.5,When was the inaugural Formula One World Championship season?,0.4,0.5,1,0.9262044410015067,0.5760778
+SW_0,0.7,0.30000000000000004,When was the inaugural Formula One World Championship season?,0.6,0.5,1,0.9294339279878792,0.59566534
+Semantic,0.3,0.7,When was the inaugural Formula One World Championship season?,0.4,0.5,1,0.8682540155079812,0.6520398
+Semantic,0.5,0.5,When was the inaugural Formula One World Championship season?,0.4,0.5,1,0.9084577071299995,0.6511418
+Semantic,0.7,0.30000000000000004,When was the inaugural Formula One World Championship season?,0.2,1.0,1,0.992359664748496,0.5939295
+Topic,0.3,0.7,When was the inaugural Formula One World Championship season?,0.6,0.3333333333333333,1,0.8958481383856968,0.67160785
+Topic,0.5,0.5,When was the inaugural Formula One World Championship season?,0.6,1.0,1,0.9971505683356969,0.64833343
+Topic,0.7,0.30000000000000004,When was the inaugural Formula One World Championship season?,0.6,1.0,1,0.9961012578395427,0.6483334
+SW_50,0.3,0.7,Who won the first Drivers' World Championship?,0.0,0.0,0,0.990362973989998,0.5138239
+SW_50,0.5,0.5,Who won the first Drivers' World Championship?,0.0,0.0,0,0.9977033275071552,0.5138239
+SW_50,0.7,0.30000000000000004,Who won the first Drivers' World Championship?,0.0,0.0,0,1.0,0.5138239
+SW_20,0.3,0.7,Who won the first Drivers' World Championship?,0.0,0.0,0,0.9868497397298133,0.51250976
+SW_20,0.5,0.5,Who won the first Drivers' World Championship?,0.0,0.0,0,0.9912361129997682,0.49533814
+SW_20,0.7,0.30000000000000004,Who won the first Drivers' World Championship?,0.0,0.0,0,0.9901919741766068,0.5032562
+SW_0,0.3,0.7,Who won the first Drivers' World Championship?,0.0,0.0,0,0.9948949972749191,0.4776762
+SW_0,0.5,0.5,Who won the first Drivers' World Championship?,0.0,0.0,0,1.0,0.46654707
+SW_0,0.7,0.30000000000000004,Who won the first Drivers' World Championship?,0.0,0.0,0,1.0,0.46654707
+Semantic,0.3,0.7,Who won the first Drivers' World Championship?,0.2,0.5,1,0.8986346920031477,0.54171216
+Semantic,0.5,0.5,Who won the first Drivers' World Championship?,0.2,0.5,1,0.8983136190774866,0.54171216
+Semantic,0.7,0.30000000000000004,Who won the first Drivers' World Championship?,0.2,1.0,1,0.9988888903304622,0.54839146
+Topic,0.3,0.7,Who won the first Drivers' World Championship?,0.0,0.0,0,0.9491675343687626,0.44401747
+Topic,0.5,0.5,Who won the first Drivers' World Championship?,0.0,0.0,0,0.9928186833041689,0.39920884
+Topic,0.7,0.30000000000000004,Who won the first Drivers' World Championship?,0.0,0.0,0,0.9928186833041689,0.39920884
+SW_50,0.3,0.7,How many championships did Juan Manuel Fangio win?,0.6,1.0,1,0.9942588055688011,0.6423284
+SW_50,0.5,0.5,How many championships did Juan Manuel Fangio win?,0.6,1.0,1,0.9942588055688011,0.6423284
+SW_50,0.7,0.30000000000000004,How many championships did Juan Manuel Fangio win?,0.6,1.0,1,0.9962926683695437,0.58326745
+SW_20,0.3,0.7,How many championships did Juan Manuel Fangio win?,0.6,1.0,1,0.9888395676809679,0.6247829
+SW_20,0.5,0.5,How many championships did Juan Manuel Fangio win?,0.4,1.0,1,0.9880566247687098,0.5795144
+SW_20,0.7,0.30000000000000004,How many championships did Juan Manuel Fangio win?,0.4,1.0,1,0.9880566247687098,0.5795144
+SW_0,0.3,0.7,How many championships did Juan Manuel Fangio win?,0.2,1.0,1,0.9915165523564319,0.53704685
+SW_0,0.5,0.5,How many championships did Juan Manuel Fangio win?,0.2,1.0,1,0.9787000404716721,0.5370469
+SW_0,0.7,0.30000000000000004,How many championships did Juan Manuel Fangio win?,0.2,1.0,1,0.9567936727045014,0.5370469
+Semantic,0.3,0.7,How many championships did Juan Manuel Fangio win?,0.6,1.0,1,0.9713543755353108,0.5904853
+Semantic,0.5,0.5,How many championships did Juan Manuel Fangio win?,0.6,1.0,1,0.9444608379288474,0.5904853
+Semantic,0.7,0.30000000000000004,How many championships did Juan Manuel Fangio win?,0.4,1.0,1,0.9598098647658576,0.5028191
+Topic,0.3,0.7,How many championships did Juan Manuel Fangio win?,0.2,0.3333333333333333,1,0.8737354797813094,0.40508962
+Topic,0.5,0.5,How many championships did Juan Manuel Fangio win?,0.2,0.25,1,0.8403099289694292,0.40508968
+Topic,0.7,0.30000000000000004,How many championships did Juan Manuel Fangio win?,0.0,0.0,0,0.941766946477296,0.30943927
+SW_50,0.3,0.7,When was the Constructors' Championship added to Formula One?,0.0,0.0,0,0.9975339837232504,0.39170426
+SW_50,0.5,0.5,When was the Constructors' Championship added to Formula One?,0.0,0.0,0,0.9890082740445436,0.352415
+SW_50,0.7,0.30000000000000004,When was the Constructors' Championship added to Formula One?,0.0,0.0,0,0.9921801867172274,0.34654507
+SW_20,0.3,0.7,When was the Constructors' Championship added to Formula One?,0.0,0.0,0,0.9318234598271997,0.36591715
+SW_20,0.5,0.5,When was the Constructors' Championship added to Formula One?,0.0,0.0,0,0.9951887401732145,0.35685763
+SW_20,0.7,0.30000000000000004,When was the Constructors' Championship added to Formula One?,0.0,0.0,0,0.9981813143678331,0.35685766
+SW_0,0.3,0.7,When was the Constructors' Championship added to Formula One?,0.0,0.0,0,0.931456882624708,0.3500213
+SW_0,0.5,0.5,When was the Constructors' Championship added to Formula One?,0.0,0.0,0,0.9975631781892458,0.32500592
+SW_0,0.7,0.30000000000000004,When was the Constructors' Championship added to Formula One?,0.0,0.0,0,0.9788128924216646,0.32500592
+Semantic,0.3,0.7,When was the Constructors' Championship added to Formula One?,0.2,1.0,1,0.9848512887976133,0.5060317
+Semantic,0.5,0.5,When was the Constructors' Championship added to Formula One?,0.2,1.0,1,0.9852886030172484,0.5060317
+Semantic,0.7,0.30000000000000004,When was the Constructors' Championship added to Formula One?,0.2,1.0,1,0.9823079281186539,0.533293
+Topic,0.3,0.7,When was the Constructors' Championship added to Formula One?,0.0,0.0,0,0.9157718699096612,0.37086955
+Topic,0.5,0.5,When was the Constructors' Championship added to Formula One?,0.0,0.0,0,0.9207569998990001,0.33598906
+Topic,0.7,0.30000000000000004,When was the Constructors' Championship added to Formula One?,0.0,0.0,0,0.9238075421777189,0.31715214
+SW_50,0.3,0.7,Which driver has the highest winning percentage in Formula One history?,0.8,1.0,1,0.991302446863294,0.61828053
+SW_50,0.5,0.5,Which driver has the highest winning percentage in Formula One history?,0.4,1.0,1,0.9944636182225708,0.5462893
+SW_50,0.7,0.30000000000000004,Which driver has the highest winning percentage in Formula One history?,0.4,1.0,1,1.0,0.48421463
+SW_20,0.3,0.7,Which driver has the highest winning percentage in Formula One history?,0.4,1.0,1,0.9999265485223396,0.5931035
+SW_20,0.5,0.5,Which driver has the highest winning percentage in Formula One history?,0.4,1.0,1,0.9798701333854963,0.5740451
+SW_20,0.7,0.30000000000000004,Which driver has the highest winning percentage in Formula One history?,0.2,1.0,1,0.9946797709443363,0.45827875
+SW_0,0.3,0.7,Which driver has the highest winning percentage in Formula One history?,0.4,1.0,1,0.9921892456151246,0.5695033
+SW_0,0.5,0.5,Which driver has the highest winning percentage in Formula One history?,0.2,1.0,1,0.997142113086937,0.47622085
+SW_0,0.7,0.30000000000000004,Which driver has the highest winning percentage in Formula One history?,0.2,1.0,1,0.9789172321249254,0.45502138
+Semantic,0.3,0.7,Which driver has the highest winning percentage in Formula One history?,0.4,1.0,1,0.9931175128066041,0.5356342
+Semantic,0.5,0.5,Which driver has the highest winning percentage in Formula One history?,0.4,1.0,1,0.9931175128066041,0.5356342
+Semantic,0.7,0.30000000000000004,Which driver has the highest winning percentage in Formula One history?,0.4,1.0,1,0.9750757286756273,0.5356342
+Topic,0.3,0.7,Which driver has the highest winning percentage in Formula One history?,0.2,1.0,1,0.980905498124643,0.45287666
+Topic,0.5,0.5,Which driver has the highest winning percentage in Formula One history?,0.2,1.0,1,0.9903282714330741,0.3967274
+Topic,0.7,0.30000000000000004,Which driver has the highest winning percentage in Formula One history?,0.2,1.0,1,0.9903282714330741,0.3967274
+SW_50,0.3,0.7,What major technological development did Bugatti introduce to Formula One?,0.0,0.0,0,0.9923605724620266,0.39183164
+SW_50,0.5,0.5,What major technological development did Bugatti introduce to Formula One?,0.0,0.0,0,0.9767496769950277,0.39670473
+SW_50,0.7,0.30000000000000004,What major technological development did Bugatti introduce to Formula One?,0.0,0.0,0,0.9767496769950277,0.39670473
+SW_20,0.3,0.7,What major technological development did Bugatti introduce to Formula One?,0.2,1.0,1,0.9754881228298568,0.34072918
+SW_20,0.5,0.5,What major technological development did Bugatti introduce to Formula One?,0.2,1.0,1,0.9754881228298568,0.34072918
+SW_20,0.7,0.30000000000000004,What major technological development did Bugatti introduce to Formula One?,0.2,1.0,1,0.9754881228298568,0.34072918
+SW_0,0.3,0.7,What major technological development did Bugatti introduce to Formula One?,0.0,0.0,0,0.9484681967473982,0.3676548
+SW_0,0.5,0.5,What major technological development did Bugatti introduce to Formula One?,0.0,0.0,0,0.9472867003414921,0.35652414
+SW_0,0.7,0.30000000000000004,What major technological development did Bugatti introduce to Formula One?,0.0,0.0,0,0.9472867003414921,0.35652414
+Semantic,0.3,0.7,What major technological development did Bugatti introduce to Formula One?,0.2,1.0,1,0.9903483169073535,0.4693634
+Semantic,0.5,0.5,What major technological development did Bugatti introduce to Formula One?,0.2,1.0,1,1.0,0.44885954
+Semantic,0.7,0.30000000000000004,What major technological development did Bugatti introduce to Formula One?,0.2,1.0,1,0.9991279889640552,0.44885954
+Topic,0.3,0.7,What major technological development did Bugatti introduce to Formula One?,0.0,0.0,0,0.9582449497173018,0.34814093
+Topic,0.5,0.5,What major technological development did Bugatti introduce to Formula One?,0.0,0.0,0,0.9092616073259228,0.3481409
+Topic,0.7,0.30000000000000004,What major technological development did Bugatti introduce to Formula One?,0.0,0.0,0,0.9951869158746742,0.30575806
+SW_50,0.3,0.7,Who proved the superiority of mid-engined cars in Formula One?,0.4,1.0,1,0.9976231528367006,0.5240923
+SW_50,0.5,0.5,Who proved the superiority of mid-engined cars in Formula One?,0.4,1.0,1,0.9965055392167677,0.5113929
+SW_50,0.7,0.30000000000000004,Who proved the superiority of mid-engined cars in Formula One?,0.4,1.0,1,1.0,0.42261618
+SW_20,0.3,0.7,Who proved the superiority of mid-engined cars in Formula One?,0.2,1.0,1,0.9906086188346543,0.4628356
+SW_20,0.5,0.5,Who proved the superiority of mid-engined cars in Formula One?,0.2,1.0,1,0.9722965327067108,0.44342297
+SW_20,0.7,0.30000000000000004,Who proved the superiority of mid-engined cars in Formula One?,0.2,1.0,1,0.9797547868679026,0.41315514
+SW_0,0.3,0.7,Who proved the superiority of mid-engined cars in Formula One?,0.2,1.0,1,0.9939312894138284,0.45009622
+SW_0,0.5,0.5,Who proved the superiority of mid-engined cars in Formula One?,0.2,1.0,1,0.9903395956318194,0.42835623
+SW_0,0.7,0.30000000000000004,Who proved the superiority of mid-engined cars in Formula One?,0.2,1.0,1,0.963775308409745,0.42835626
+Semantic,0.3,0.7,Who proved the superiority of mid-engined cars in Formula One?,0.2,0.3333333333333333,1,0.8269803782283047,0.53202903
+Semantic,0.5,0.5,Who proved the superiority of mid-engined cars in Formula One?,0.2,0.3333333333333333,1,0.8586522461359588,0.53202903
+Semantic,0.7,0.30000000000000004,Who proved the superiority of mid-engined cars in Formula One?,0.2,0.3333333333333333,1,0.8563263171111354,0.51235586
+Topic,0.3,0.7,Who proved the superiority of mid-engined cars in Formula One?,0.2,1.0,1,0.9743545899199246,0.5263112
+Topic,0.5,0.5,Who proved the superiority of mid-engined cars in Formula One?,0.2,1.0,1,0.9685783577894265,0.49553648
+Topic,0.7,0.30000000000000004,Who proved the superiority of mid-engined cars in Formula One?,0.2,1.0,1,0.9749454111988546,0.49553648
+SW_50,0.3,0.7,By what year had all Formula One teams switched to mid-engined cars?,0.0,0.0,0,0.9995279360761226,0.52379054
+SW_50,0.5,0.5,By what year had all Formula One teams switched to mid-engined cars?,0.0,0.0,0,0.999528451662379,0.5246855
+SW_50,0.7,0.30000000000000004,By what year had all Formula One teams switched to mid-engined cars?,0.0,0.0,0,1.0,0.46239138
+SW_20,0.3,0.7,By what year had all Formula One teams switched to mid-engined cars?,0.2,1.0,1,0.9993643824719102,0.5044968
+SW_20,0.5,0.5,By what year had all Formula One teams switched to mid-engined cars?,0.2,1.0,1,0.9993643824719102,0.5044968
+SW_20,0.7,0.30000000000000004,By what year had all Formula One teams switched to mid-engined cars?,0.2,1.0,1,0.9735047237749543,0.44916034
+SW_0,0.3,0.7,By what year had all Formula One teams switched to mid-engined cars?,0.0,0.0,0,0.9981841444390117,0.49473768
+SW_0,0.5,0.5,By what year had all Formula One teams switched to mid-engined cars?,0.0,0.0,0,1.0,0.49527687
+SW_0,0.7,0.30000000000000004,By what year had all Formula One teams switched to mid-engined cars?,0.0,0.0,0,0.9886750802714689,0.44975844
+Semantic,0.3,0.7,By what year had all Formula One teams switched to mid-engined cars?,0.2,1.0,1,0.9904027037084703,0.5508194
+Semantic,0.5,0.5,By what year had all Formula One teams switched to mid-engined cars?,0.2,1.0,1,0.9904665806238281,0.5207981
+Semantic,0.7,0.30000000000000004,By what year had all Formula One teams switched to mid-engined cars?,0.2,1.0,1,0.9891139753223482,0.4512344
+Topic,0.3,0.7,By what year had all Formula One teams switched to mid-engined cars?,0.2,1.0,1,0.9975078230134488,0.5329875
+Topic,0.5,0.5,By what year had all Formula One teams switched to mid-engined cars?,0.2,1.0,1,1.0,0.5063644
+Topic,0.7,0.30000000000000004,By what year had all Formula One teams switched to mid-engined cars?,0.2,1.0,1,0.9676837719191032,0.47969955
+SW_50,0.3,0.7,What was the last front-engined Formula One car to enter a world championship race?,0.6,1.0,1,0.9996600284811396,0.622805
+SW_50,0.5,0.5,What was the last front-engined Formula One car to enter a world championship race?,0.6,1.0,1,0.9996600284811396,0.622805
+SW_50,0.7,0.30000000000000004,What was the last front-engined Formula One car to enter a world championship race?,0.6,1.0,1,0.9954675839727732,0.622805
+SW_20,0.3,0.7,What was the last front-engined Formula One car to enter a world championship race?,0.4,1.0,1,0.9957997794766961,0.57828325
+SW_20,0.5,0.5,What was the last front-engined Formula One car to enter a world championship race?,0.4,1.0,1,0.9983101723320702,0.57828325
+SW_20,0.7,0.30000000000000004,What was the last front-engined Formula One car to enter a world championship race?,0.4,1.0,1,0.9870054486257633,0.5845494
+SW_0,0.3,0.7,What was the last front-engined Formula One car to enter a world championship race?,0.4,1.0,1,0.9985316264881747,0.5677846
+SW_0,0.5,0.5,What was the last front-engined Formula One car to enter a world championship race?,0.4,1.0,1,0.9988035170176557,0.56558
+SW_0,0.7,0.30000000000000004,What was the last front-engined Formula One car to enter a world championship race?,0.4,1.0,1,0.9901551648488289,0.56558
+Semantic,0.3,0.7,What was the last front-engined Formula One car to enter a world championship race?,0.2,1.0,1,0.9961530799879015,0.6344068
+Semantic,0.5,0.5,What was the last front-engined Formula One car to enter a world championship race?,0.2,1.0,1,0.9974935650703899,0.5913519
+Semantic,0.7,0.30000000000000004,What was the last front-engined Formula One car to enter a world championship race?,0.2,1.0,1,0.9968110415842883,0.5913519
+Topic,0.3,0.7,What was the last front-engined Formula One car to enter a world championship race?,0.2,1.0,1,0.9988394895243329,0.6144227
+Topic,0.5,0.5,What was the last front-engined Formula One car to enter a world championship race?,0.2,1.0,1,0.9958399168887062,0.6144227
+Topic,0.7,0.30000000000000004,What was the last front-engined Formula One car to enter a world championship race?,0.2,1.0,1,0.9980953600156969,0.57499635
+SW_50,0.3,0.7,What major chassis innovation did Lotus introduce in 1962?,0.6,1.0,1,0.9940313534998849,0.54419994
+SW_50,0.5,0.5,What major chassis innovation did Lotus introduce in 1962?,0.6,1.0,1,0.998445103413437,0.54419994
+SW_50,0.7,0.30000000000000004,What major chassis innovation did Lotus introduce in 1962?,0.6,1.0,1,0.9905592150497023,0.51071966
+SW_20,0.3,0.7,What major chassis innovation did Lotus introduce in 1962?,0.0,0.0,0,1.0,0.5093736
+SW_20,0.5,0.5,What major chassis innovation did Lotus introduce in 1962?,0.0,0.0,0,0.9908644148687762,0.5093736
+SW_20,0.7,0.30000000000000004,What major chassis innovation did Lotus introduce in 1962?,0.0,0.0,0,0.984986036096344,0.4023313
+SW_0,0.3,0.7,What major chassis innovation did Lotus introduce in 1962?,0.4,1.0,1,0.997664497220823,0.46593586
+SW_0,0.5,0.5,What major chassis innovation did Lotus introduce in 1962?,0.4,1.0,1,1.0,0.430232
+SW_0,0.7,0.30000000000000004,What major chassis innovation did Lotus introduce in 1962?,0.4,1.0,1,0.9858569557549748,0.430232
+Semantic,0.3,0.7,What major chassis innovation did Lotus introduce in 1962?,0.2,1.0,1,0.9973457389990111,0.5623989
+Semantic,0.5,0.5,What major chassis innovation did Lotus introduce in 1962?,0.2,1.0,1,0.9657727962306317,0.506331
+Semantic,0.7,0.30000000000000004,What major chassis innovation did Lotus introduce in 1962?,0.2,1.0,1,0.9536833364716912,0.4902289
+Topic,0.3,0.7,What major chassis innovation did Lotus introduce in 1962?,0.2,1.0,1,0.9997884606815587,0.6019751
+Topic,0.5,0.5,What major chassis innovation did Lotus introduce in 1962?,0.2,1.0,1,0.9997751289432388,0.5436994
+Topic,0.7,0.30000000000000004,What major chassis innovation did Lotus introduce in 1962?,0.2,1.0,1,0.9472968152984725,0.4876315
+SW_50,0.3,0.7,When was sponsorship first introduced to Formula One?,0.0,0.0,0,0.8849261441706643,0.3801311
+SW_50,0.5,0.5,When was sponsorship first introduced to Formula One?,0.0,0.0,0,0.9828063377413254,0.32102233
+SW_50,0.7,0.30000000000000004,When was sponsorship first introduced to Formula One?,0.0,0.0,0,0.9712120945105018,0.3089869
+SW_20,0.3,0.7,When was sponsorship first introduced to Formula One?,0.0,0.0,0,0.9195310937493161,0.30214232
+SW_20,0.5,0.5,When was sponsorship first introduced to Formula One?,0.0,0.0,0,0.9842038324095083,0.28568235
+SW_20,0.7,0.30000000000000004,When was sponsorship first introduced to Formula One?,0.0,0.0,0,0.9682591410363488,0.28568235
+SW_0,0.3,0.7,When was sponsorship first introduced to Formula One?,0.0,0.0,0,0.9217834495081841,0.346087
+SW_0,0.5,0.5,When was sponsorship first introduced to Formula One?,0.0,0.0,0,0.9545291487962273,0.29888144
+SW_0,0.7,0.30000000000000004,When was sponsorship first introduced to Formula One?,0.0,0.0,0,0.93779308530311,0.29888144
+Semantic,0.3,0.7,When was sponsorship first introduced to Formula One?,0.2,1.0,1,0.996346165663522,0.35098678
+Semantic,0.5,0.5,When was sponsorship first introduced to Formula One?,0.2,1.0,1,0.9901780305913757,0.31396446
+Semantic,0.7,0.30000000000000004,When was sponsorship first introduced to Formula One?,0.2,1.0,1,0.9901780305913757,0.31396446
+Topic,0.3,0.7,When was sponsorship first introduced to Formula One?,0.0,0.0,0,0.8837456669476195,0.3028446
+Topic,0.5,0.5,When was sponsorship first introduced to Formula One?,0.0,0.0,0,0.8376822164538938,0.28136745
+Topic,0.7,0.30000000000000004,When was sponsorship first introduced to Formula One?,0.0,0.0,0,0.8376822164538938,0.28136745
+SW_50,0.3,0.7,Which team first used cigarette sponsorship in Formula One?,0.4,1.0,1,0.9933736826806664,0.5424373
+SW_50,0.5,0.5,Which team first used cigarette sponsorship in Formula One?,0.4,1.0,1,0.9744308415493419,0.53175193
+SW_50,0.7,0.30000000000000004,Which team first used cigarette sponsorship in Formula One?,0.4,1.0,1,0.9767778520877178,0.4999996
+SW_20,0.3,0.7,Which team first used cigarette sponsorship in Formula One?,0.2,1.0,1,0.9920267507548425,0.49575004
+SW_20,0.5,0.5,Which team first used cigarette sponsorship in Formula One?,0.2,1.0,1,0.9941526284579754,0.48445717
+SW_20,0.7,0.30000000000000004,Which team first used cigarette sponsorship in Formula One?,0.2,1.0,1,0.9927862759395913,0.48445717
+SW_0,0.3,0.7,Which team first used cigarette sponsorship in Formula One?,0.2,1.0,1,0.9911551786665616,0.46579474
+SW_0,0.5,0.5,Which team first used cigarette sponsorship in Formula One?,0.2,1.0,1,0.9953729530242693,0.4571774
+SW_0,0.7,0.30000000000000004,Which team first used cigarette sponsorship in Formula One?,0.2,1.0,1,0.995892263230698,0.45473585
+Semantic,0.3,0.7,Which team first used cigarette sponsorship in Formula One?,0.2,1.0,1,0.974417448814933,0.5521611
+Semantic,0.5,0.5,Which team first used cigarette sponsorship in Formula One?,0.2,1.0,1,0.9836957423102282,0.5140866
+Semantic,0.7,0.30000000000000004,Which team first used cigarette sponsorship in Formula One?,0.2,1.0,1,1.0,0.46103874
+Topic,0.3,0.7,Which team first used cigarette sponsorship in Formula One?,0.2,1.0,1,1.0,0.407157
+Topic,0.5,0.5,Which team first used cigarette sponsorship in Formula One?,0.2,1.0,1,0.9836497327260167,0.407157
+Topic,0.7,0.30000000000000004,Which team first used cigarette sponsorship in Formula One?,0.2,1.0,1,0.9876861526013307,0.4021555
+SW_50,0.3,0.7,Who introduced wings to Formula One cars and when?,0.4,1.0,1,0.9733253629257081,0.55217034
+SW_50,0.5,0.5,Who introduced wings to Formula One cars and when?,0.4,1.0,1,0.9646698521989601,0.5521703
+SW_50,0.7,0.30000000000000004,Who introduced wings to Formula One cars and when?,0.4,1.0,1,0.9699964421463729,0.4846403
+SW_20,0.3,0.7,Who introduced wings to Formula One cars and when?,0.4,1.0,1,0.9914099493147732,0.44068044
+SW_20,0.5,0.5,Who introduced wings to Formula One cars and when?,0.4,1.0,1,0.9900035301385365,0.43033686
+SW_20,0.7,0.30000000000000004,Who introduced wings to Formula One cars and when?,0.4,1.0,1,0.9900035301385365,0.43033686
+SW_0,0.3,0.7,Who introduced wings to Formula One cars and when?,0.2,1.0,1,0.9723335670751101,0.46849138
+SW_0,0.5,0.5,Who introduced wings to Formula One cars and when?,0.2,1.0,1,0.9583747931009761,0.45200282
+SW_0,0.7,0.30000000000000004,Who introduced wings to Formula One cars and when?,0.2,1.0,1,0.9978092757845388,0.3448395
+Semantic,0.3,0.7,Who introduced wings to Formula One cars and when?,0.2,1.0,1,0.9995144045394279,0.41041166
+Semantic,0.5,0.5,Who introduced wings to Formula One cars and when?,0.2,1.0,1,0.9995801254881754,0.4104117
+Semantic,0.7,0.30000000000000004,Who introduced wings to Formula One cars and when?,0.2,1.0,1,0.9887085070017163,0.40780753
+Topic,0.3,0.7,Who introduced wings to Formula One cars and when?,0.2,1.0,1,0.9973252658968575,0.43581563
+Topic,0.5,0.5,Who introduced wings to Formula One cars and when?,0.2,1.0,1,0.9962958418324596,0.42563707
+Topic,0.7,0.30000000000000004,Who introduced wings to Formula One cars and when?,0.2,1.0,1,0.9909503254519073,0.42563707
+SW_50,0.3,0.7,Who introduced ground-effect aerodynamics to Formula One?,0.2,0.5,1,0.9414427776137112,0.38330498
+SW_50,0.5,0.5,Who introduced ground-effect aerodynamics to Formula One?,0.2,0.5,1,0.9268179508424762,0.38330498
+SW_50,0.7,0.30000000000000004,Who introduced ground-effect aerodynamics to Formula One?,0.2,1.0,1,1.0,0.33062735
+SW_20,0.3,0.7,Who introduced ground-effect aerodynamics to Formula One?,0.0,0.0,0,0.9948034562542837,0.3439526
+SW_20,0.5,0.5,Who introduced ground-effect aerodynamics to Formula One?,0.0,0.0,0,0.9860102769153053,0.32028756
+SW_20,0.7,0.30000000000000004,Who introduced ground-effect aerodynamics to Formula One?,0.0,0.0,0,0.9795289940517696,0.32695955
+SW_0,0.3,0.7,Who introduced ground-effect aerodynamics to Formula One?,0.2,1.0,1,0.9875920492807875,0.34638047
+SW_0,0.5,0.5,Who introduced ground-effect aerodynamics to Formula One?,0.2,1.0,1,0.9962292467118057,0.31903785
+SW_0,0.7,0.30000000000000004,Who introduced ground-effect aerodynamics to Formula One?,0.2,1.0,1,0.9523971601896389,0.32443094
+Semantic,0.3,0.7,Who introduced ground-effect aerodynamics to Formula One?,0.2,1.0,1,0.9932385077546271,0.40572977
+Semantic,0.5,0.5,Who introduced ground-effect aerodynamics to Formula One?,0.2,1.0,1,0.9747190221948955,0.40572983
+Semantic,0.7,0.30000000000000004,Who introduced ground-effect aerodynamics to Formula One?,0.2,0.5,1,0.8426243819759677,0.40572983
+Topic,0.3,0.7,Who introduced ground-effect aerodynamics to Formula One?,0.2,1.0,1,0.9979527274952399,0.37206516
+Topic,0.5,0.5,Who introduced ground-effect aerodynamics to Formula One?,0.2,1.0,1,0.9887653283107267,0.37206516
+Topic,0.7,0.30000000000000004,Who introduced ground-effect aerodynamics to Formula One?,0.2,1.0,1,0.985004662237575,0.37206516
+SW_50,0.3,0.7,Who rearranged the management of Formula One's commercial rights?,0.4,1.0,1,0.999610906736454,0.6140319
+SW_50,0.5,0.5,Who rearranged the management of Formula One's commercial rights?,0.4,1.0,1,0.9986207241436762,0.6054947
+SW_50,0.7,0.30000000000000004,Who rearranged the management of Formula One's commercial rights?,0.4,1.0,1,0.9940090809487064,0.6054946
+SW_20,0.3,0.7,Who rearranged the management of Formula One's commercial rights?,0.0,0.0,0,0.9977606684157119,0.53991205
+SW_20,0.5,0.5,Who rearranged the management of Formula One's commercial rights?,0.0,0.0,0,0.9960546460798444,0.49200854
+SW_20,0.7,0.30000000000000004,Who rearranged the management of Formula One's commercial rights?,0.0,0.0,0,0.9873498770479073,0.4920086
+SW_0,0.3,0.7,Who rearranged the management of Formula One's commercial rights?,0.2,1.0,1,0.9979576597160589,0.54760355
+SW_0,0.5,0.5,Who rearranged the management of Formula One's commercial rights?,0.2,1.0,1,0.9967105421098355,0.5273806
+SW_0,0.7,0.30000000000000004,Who rearranged the management of Formula One's commercial rights?,0.2,1.0,1,0.9967105421098355,0.5273806
+Semantic,0.3,0.7,Who rearranged the management of Formula One's commercial rights?,0.2,1.0,1,0.9882086550284677,0.59833705
+Semantic,0.5,0.5,Who rearranged the management of Formula One's commercial rights?,0.2,1.0,1,1.0,0.5269986
+Semantic,0.7,0.30000000000000004,Who rearranged the management of Formula One's commercial rights?,0.2,1.0,1,0.9866951664635293,0.5269986
+Topic,0.3,0.7,Who rearranged the management of Formula One's commercial rights?,0.2,1.0,1,0.9893355138215546,0.60039806
+Topic,0.5,0.5,Who rearranged the management of Formula One's commercial rights?,0.2,1.0,1,0.9816066867279477,0.52757204
+Topic,0.7,0.30000000000000004,Who rearranged the management of Formula One's commercial rights?,0.2,1.0,1,0.9714449528296848,0.50808203
+SW_50,0.3,0.7,What was the FISA-FOCA war about?,0.4,1.0,1,0.9752880983756818,0.5839942
+SW_50,0.5,0.5,What was the FISA-FOCA war about?,0.2,1.0,1,0.9876326480879105,0.50612974
+SW_50,0.7,0.30000000000000004,What was the FISA-FOCA war about?,0.2,0.3333333333333333,1,0.8971780193922502,0.45180577
+SW_20,0.3,0.7,What was the FISA-FOCA war about?,0.2,0.5,1,0.9528776293853346,0.4766417
+SW_20,0.5,0.5,What was the FISA-FOCA war about?,0.2,0.5,1,0.9426274551124617,0.4766417
+SW_20,0.7,0.30000000000000004,What was the FISA-FOCA war about?,0.2,0.5,1,0.9485152355211852,0.42206398
+SW_0,0.3,0.7,What was the FISA-FOCA war about?,0.2,0.5,1,0.9516696371958262,0.434968
+SW_0,0.5,0.5,What was the FISA-FOCA war about?,0.2,0.3333333333333333,1,0.8695879538140386,0.39019102
+SW_0,0.7,0.30000000000000004,What was the FISA-FOCA war about?,0.2,0.2,1,0.7964859144343133,0.3488302
+Semantic,0.3,0.7,What was the FISA-FOCA war about?,0.2,0.5,1,0.9283108068607142,0.6623923
+Semantic,0.5,0.5,What was the FISA-FOCA war about?,0.2,0.25,1,0.8497692430042867,0.5221423
+Semantic,0.7,0.30000000000000004,What was the FISA-FOCA war about?,0.0,0.0,0,0.9948152804881747,0.38327974
+Topic,0.3,0.7,What was the FISA-FOCA war about?,0.8,1.0,1,0.938904542194429,0.672572
+Topic,0.5,0.5,What was the FISA-FOCA war about?,0.4,1.0,1,0.9043154581264572,0.5071726
+Topic,0.7,0.30000000000000004,What was the FISA-FOCA war about?,0.2,1.0,1,0.9753365349272523,0.40560046
+SW_50,0.3,0.7,What was the result of the FISA-FOCA war?,0.0,0.0,0,0.9881858433449472,0.293796
+SW_50,0.5,0.5,What was the result of the FISA-FOCA war?,0.0,0.0,0,0.9955411653609011,0.25365937
+SW_50,0.7,0.30000000000000004,What was the result of the FISA-FOCA war?,0.0,0.0,0,0.9955411653609011,0.25365937
+SW_20,0.3,0.7,What was the result of the FISA-FOCA war?,0.0,0.0,0,0.8912238627468376,0.19585726
+SW_20,0.5,0.5,What was the result of the FISA-FOCA war?,0.0,0.0,0,0.8912238627468376,0.19585726
+SW_20,0.7,0.30000000000000004,What was the result of the FISA-FOCA war?,0.0,0.0,0,0.8912238627468376,0.19585726
+SW_0,0.3,0.7,What was the result of the FISA-FOCA war?,0.0,0.0,0,0.9996933381044879,0.24618761
+SW_0,0.5,0.5,What was the result of the FISA-FOCA war?,0.0,0.0,0,0.9878006435737064,0.24618761
+SW_0,0.7,0.30000000000000004,What was the result of the FISA-FOCA war?,0.0,0.0,0,0.9818104745643507,0.24618761
+Semantic,0.3,0.7,What was the result of the FISA-FOCA war?,0.0,0.0,0,0.8589587754014231,0.18362398
+Semantic,0.5,0.5,What was the result of the FISA-FOCA war?,0.0,0.0,0,0.8430760127655603,0.15802522
+Semantic,0.7,0.30000000000000004,What was the result of the FISA-FOCA war?,0.2,0.2,1,0.577345725100395,0.3081984
+Topic,0.3,0.7,What was the result of the FISA-FOCA war?,0.0,0.0,0,0.7733728912217639,0.2701941
+Topic,0.5,0.5,What was the result of the FISA-FOCA war?,0.0,0.0,0,0.6746110748022683,0.23855284
+Topic,0.7,0.30000000000000004,What was the result of the FISA-FOCA war?,0.0,0.0,0,0.6503908040538505,0.22149344
+SW_50,0.3,0.7,When were turbocharged engines banned in Formula One?,0.2,0.5,1,0.9729728214130053,0.5370653
+SW_50,0.5,0.5,When were turbocharged engines banned in Formula One?,0.2,0.5,1,0.9699626153586169,0.54497373
+SW_50,0.7,0.30000000000000004,When were turbocharged engines banned in Formula One?,0.2,0.5,1,0.9699704590207487,0.5086163
+SW_20,0.3,0.7,When were turbocharged engines banned in Formula One?,0.0,0.0,0,0.9673051687706126,0.5207598
+SW_20,0.5,0.5,When were turbocharged engines banned in Formula One?,0.0,0.0,0,0.9597466644362618,0.5207598
+SW_20,0.7,0.30000000000000004,When were turbocharged engines banned in Formula One?,0.0,0.0,0,0.9532750726058764,0.5311074
+SW_0,0.3,0.7,When were turbocharged engines banned in Formula One?,0.0,0.0,0,0.9638111654784166,0.5215981
+SW_0,0.5,0.5,When were turbocharged engines banned in Formula One?,0.0,0.0,0,0.9813285310536601,0.49188548
+SW_0,0.7,0.30000000000000004,When were turbocharged engines banned in Formula One?,0.0,0.0,0,0.965025177793338,0.49188548
+Semantic,0.3,0.7,When were turbocharged engines banned in Formula One?,0.2,0.5,1,0.9094759264688758,0.59874475
+Semantic,0.5,0.5,When were turbocharged engines banned in Formula One?,0.2,0.3333333333333333,1,0.8733445723386202,0.5353967
+Semantic,0.7,0.30000000000000004,When were turbocharged engines banned in Formula One?,0.2,0.3333333333333333,1,0.8670614140129564,0.5134795
+Topic,0.3,0.7,When were turbocharged engines banned in Formula One?,0.2,0.5,1,0.9105699531978085,0.59099835
+Topic,0.5,0.5,When were turbocharged engines banned in Formula One?,0.2,0.3333333333333333,1,0.8803868292477816,0.59099835
+Topic,0.7,0.30000000000000004,When were turbocharged engines banned in Formula One?,0.2,0.25,1,0.8614715953659707,0.59099835
+SW_50,0.3,0.7,What electronic driver aids were developed in the 1980s?,0.4,1.0,1,0.9922354445855339,0.57212085
+SW_50,0.5,0.5,What electronic driver aids were developed in the 1980s?,0.4,1.0,1,0.9922354445855339,0.57212085
+SW_50,0.7,0.30000000000000004,What electronic driver aids were developed in the 1980s?,0.4,1.0,1,0.9922354445855339,0.57212085
+SW_20,0.3,0.7,What electronic driver aids were developed in the 1980s?,0.2,1.0,1,0.9962340223365457,0.51874185
+SW_20,0.5,0.5,What electronic driver aids were developed in the 1980s?,0.2,1.0,1,1.0,0.4883921
+SW_20,0.7,0.30000000000000004,What electronic driver aids were developed in the 1980s?,0.2,0.5,1,0.9357157745503514,0.4883921
+SW_0,0.3,0.7,What electronic driver aids were developed in the 1980s?,0.2,1.0,1,0.9837770303713511,0.49251193
+SW_0,0.5,0.5,What electronic driver aids were developed in the 1980s?,0.2,1.0,1,0.9968222747780471,0.44098982
+SW_0,0.7,0.30000000000000004,What electronic driver aids were developed in the 1980s?,0.2,1.0,1,0.9968222747780471,0.44098982
+Semantic,0.3,0.7,What electronic driver aids were developed in the 1980s?,0.2,1.0,1,0.9956120667577899,0.5011902
+Semantic,0.5,0.5,What electronic driver aids were developed in the 1980s?,0.2,1.0,1,1.0,0.47534102
+Semantic,0.7,0.30000000000000004,What electronic driver aids were developed in the 1980s?,0.2,1.0,1,0.9969815893989092,0.47534102
+Topic,0.3,0.7,What electronic driver aids were developed in the 1980s?,0.2,1.0,1,0.9938173419129299,0.48120642
+Topic,0.5,0.5,What electronic driver aids were developed in the 1980s?,0.2,1.0,1,0.9980534178591326,0.4657445
+Topic,0.7,0.30000000000000004,What electronic driver aids were developed in the 1980s?,0.2,1.0,1,0.9985531840060754,0.42984623
+SW_50,0.3,0.7,When did the FIA ban many electronic driver aids?,0.4,1.0,1,0.9997537708918404,0.517978
+SW_50,0.5,0.5,When did the FIA ban many electronic driver aids?,0.4,1.0,1,0.9921228899937304,0.517978
+SW_50,0.7,0.30000000000000004,When did the FIA ban many electronic driver aids?,0.4,1.0,1,0.9931986851118831,0.5093512
+SW_20,0.3,0.7,When did the FIA ban many electronic driver aids?,0.0,0.0,0,1.0,0.5072603
+SW_20,0.5,0.5,When did the FIA ban many electronic driver aids?,0.0,0.0,0,0.9993918527945863,0.5063642
+SW_20,0.7,0.30000000000000004,When did the FIA ban many electronic driver aids?,0.0,0.0,0,1.0,0.4867167
+SW_0,0.3,0.7,When did the FIA ban many electronic driver aids?,0.2,1.0,1,0.9981675961585722,0.50731105
+SW_0,0.5,0.5,When did the FIA ban many electronic driver aids?,0.2,1.0,1,0.9968129431779446,0.48427868
+SW_0,0.7,0.30000000000000004,When did the FIA ban many electronic driver aids?,0.2,1.0,1,1.0,0.4505907
+Semantic,0.3,0.7,When did the FIA ban many electronic driver aids?,0.4,0.5,1,0.8914417411569958,0.65757114
+Semantic,0.5,0.5,When did the FIA ban many electronic driver aids?,0.4,0.5,1,0.8959724398582368,0.65757114
+Semantic,0.7,0.30000000000000004,When did the FIA ban many electronic driver aids?,0.4,0.5,1,0.8959724398582368,0.65757114
+Topic,0.3,0.7,When did the FIA ban many electronic driver aids?,0.4,1.0,1,0.907618338441634,0.63556576
+Topic,0.5,0.5,When did the FIA ban many electronic driver aids?,0.4,1.0,1,0.907618338441634,0.63556576
+Topic,0.7,0.30000000000000004,When did the FIA ban many electronic driver aids?,0.4,0.5,1,0.8752629762549282,0.63556576
+SW_50,0.3,0.7,Which teams dominated Formula One in the 1980s and 1990s?,0.4,1.0,1,0.9991295618911684,0.6031581
+SW_50,0.5,0.5,Which teams dominated Formula One in the 1980s and 1990s?,0.4,1.0,1,0.989984712279243,0.5776043
+SW_50,0.7,0.30000000000000004,Which teams dominated Formula One in the 1980s and 1990s?,0.4,1.0,1,0.9861659426514343,0.58431643
+SW_20,0.3,0.7,Which teams dominated Formula One in the 1980s and 1990s?,0.0,0.0,0,0.9779225840169216,0.5200835
+SW_20,0.5,0.5,Which teams dominated Formula One in the 1980s and 1990s?,0.0,0.0,0,0.9966548117169582,0.5133715
+SW_20,0.7,0.30000000000000004,Which teams dominated Formula One in the 1980s and 1990s?,0.0,0.0,0,0.9873147844276994,0.48549938
+SW_0,0.3,0.7,Which teams dominated Formula One in the 1980s and 1990s?,0.0,0.0,0,0.9899693009921909,0.48095465
+SW_0,0.5,0.5,Which teams dominated Formula One in the 1980s and 1990s?,0.0,0.0,0,0.9908097897344207,0.46916217
+SW_0,0.7,0.30000000000000004,Which teams dominated Formula One in the 1980s and 1990s?,0.0,0.0,0,0.9857741332340602,0.4706307
+Semantic,0.3,0.7,Which teams dominated Formula One in the 1980s and 1990s?,0.4,1.0,1,0.9963342096108776,0.58228767
+Semantic,0.5,0.5,Which teams dominated Formula One in the 1980s and 1990s?,0.4,1.0,1,0.9806234535754297,0.57883775
+Semantic,0.7,0.30000000000000004,Which teams dominated Formula One in the 1980s and 1990s?,0.2,1.0,1,0.9890428567118104,0.5466886
+Topic,0.3,0.7,Which teams dominated Formula One in the 1980s and 1990s?,0.4,1.0,1,0.9881485228881238,0.55347306
+Topic,0.5,0.5,Which teams dominated Formula One in the 1980s and 1990s?,0.4,1.0,1,0.9984662092919471,0.5177147
+Topic,0.7,0.30000000000000004,Which teams dominated Formula One in the 1980s and 1990s?,0.4,0.3333333333333333,1,0.903738747569231,0.5137639
+SW_50,0.3,0.7,How many championships did McLaren win in the 1980s and 1990s?,0.8,1.0,1,0.9820410573147049,0.6224241
+SW_50,0.5,0.5,How many championships did McLaren win in the 1980s and 1990s?,0.8,1.0,1,0.9820410573147049,0.6224241
+SW_50,0.7,0.30000000000000004,How many championships did McLaren win in the 1980s and 1990s?,0.4,1.0,1,0.9864281956406374,0.5469992
+SW_20,0.3,0.7,How many championships did McLaren win in the 1980s and 1990s?,0.8,1.0,1,0.9833720207360502,0.6408755
+SW_20,0.5,0.5,How many championships did McLaren win in the 1980s and 1990s?,0.8,1.0,1,0.9828629449249178,0.6113807
+SW_20,0.7,0.30000000000000004,How many championships did McLaren win in the 1980s and 1990s?,0.6,1.0,1,0.9720426076347335,0.5704627
+SW_0,0.3,0.7,How many championships did McLaren win in the 1980s and 1990s?,0.6,0.5,1,0.9638599044281991,0.6215648
+SW_0,0.5,0.5,How many championships did McLaren win in the 1980s and 1990s?,0.4,0.5,1,0.9538149750060527,0.5818942
+SW_0,0.7,0.30000000000000004,How many championships did McLaren win in the 1980s and 1990s?,0.2,0.5,1,0.9655667761673737,0.49804324
+Semantic,0.3,0.7,How many championships did McLaren win in the 1980s and 1990s?,0.8,0.5,1,0.9185428159521538,0.6991661
+Semantic,0.5,0.5,How many championships did McLaren win in the 1980s and 1990s?,0.6,0.5,1,0.9080605391472072,0.60892254
+Semantic,0.7,0.30000000000000004,How many championships did McLaren win in the 1980s and 1990s?,0.2,0.5,1,0.91835708038861,0.5322183
+Topic,0.3,0.7,How many championships did McLaren win in the 1980s and 1990s?,0.8,1.0,1,0.9890263430907643,0.6254032
+Topic,0.5,0.5,How many championships did McLaren win in the 1980s and 1990s?,0.6,1.0,1,0.9676377403542819,0.55524606
+Topic,0.7,0.30000000000000004,How many championships did McLaren win in the 1980s and 1990s?,0.2,1.0,1,0.958813973697114,0.40135002
+SW_50,0.3,0.7,How many championships did Williams win in the 1980s and 1990s?,0.0,0.0,0,0.9954514722070903,0.5082735
+SW_50,0.5,0.5,How many championships did Williams win in the 1980s and 1990s?,0.0,0.0,0,0.9959913593023029,0.4835176
+SW_50,0.7,0.30000000000000004,How many championships did Williams win in the 1980s and 1990s?,0.0,0.0,0,0.9959913593023029,0.4835176
+SW_20,0.3,0.7,How many championships did Williams win in the 1980s and 1990s?,0.0,0.0,0,0.9945677620286631,0.5136446
+SW_20,0.5,0.5,How many championships did Williams win in the 1980s and 1990s?,0.0,0.0,0,0.9955514769767939,0.48938093
+SW_20,0.7,0.30000000000000004,How many championships did Williams win in the 1980s and 1990s?,0.0,0.0,0,0.9815408786385161,0.48938093
+SW_0,0.3,0.7,How many championships did Williams win in the 1980s and 1990s?,0.0,0.0,0,0.964127828592226,0.52830344
+SW_0,0.5,0.5,How many championships did Williams win in the 1980s and 1990s?,0.0,0.0,0,0.9753264137149039,0.4881627
+SW_0,0.7,0.30000000000000004,How many championships did Williams win in the 1980s and 1990s?,0.0,0.0,0,0.9860433305116345,0.41779009
+Semantic,0.3,0.7,How many championships did Williams win in the 1980s and 1990s?,0.2,0.5,1,0.9273646097745406,0.5044405
+Semantic,0.5,0.5,How many championships did Williams win in the 1980s and 1990s?,0.2,0.5,1,0.9280639349645398,0.5098198
+Semantic,0.7,0.30000000000000004,How many championships did Williams win in the 1980s and 1990s?,0.2,0.5,1,0.9212285510397151,0.48431858
+Topic,0.3,0.7,How many championships did Williams win in the 1980s and 1990s?,0.2,1.0,1,0.9976308651173138,0.34236735
+Topic,0.5,0.5,How many championships did Williams win in the 1980s and 1990s?,0.2,1.0,1,0.9976308651173138,0.34236735
+Topic,0.7,0.30000000000000004,How many championships did Williams win in the 1980s and 1990s?,0.2,1.0,1,0.9949766931248532,0.29635656
+SW_50,0.3,0.7,When did Ayrton Senna die?,0.4,1.0,1,0.9887677611792351,0.3495553
+SW_50,0.5,0.5,When did Ayrton Senna die?,0.4,1.0,1,0.9887677611792351,0.3495553
+SW_50,0.7,0.30000000000000004,When did Ayrton Senna die?,0.4,1.0,1,0.9887677611792351,0.3495553
+SW_20,0.3,0.7,When did Ayrton Senna die?,0.2,1.0,1,0.9793862375029929,0.35142142
+SW_20,0.5,0.5,When did Ayrton Senna die?,0.2,1.0,1,0.9804793965931822,0.32898515
+SW_20,0.7,0.30000000000000004,When did Ayrton Senna die?,0.2,1.0,1,0.9804793965931822,0.32898515
+SW_0,0.3,0.7,When did Ayrton Senna die?,0.2,1.0,1,0.9082840734466172,0.3123972
+SW_0,0.5,0.5,When did Ayrton Senna die?,0.2,1.0,1,0.9493823013655444,0.268504
+SW_0,0.7,0.30000000000000004,When did Ayrton Senna die?,0.2,1.0,1,0.9493823013655444,0.268504
+Semantic,0.3,0.7,When did Ayrton Senna die?,0.2,1.0,1,0.9883765403723018,0.48280612
+Semantic,0.5,0.5,When did Ayrton Senna die?,0.2,0.25,1,0.7441720617743113,0.48280612
+Semantic,0.7,0.30000000000000004,When did Ayrton Senna die?,0.0,0.0,0,0.8775419305176437,0.32786053
+Topic,0.3,0.7,When did Ayrton Senna die?,0.2,1.0,1,0.9995164050228155,0.3615903
+Topic,0.5,0.5,When did Ayrton Senna die?,0.2,0.5,1,0.7951152386533394,0.3615903
+Topic,0.7,0.30000000000000004,When did Ayrton Senna die?,0.2,0.3333333333333333,1,0.7203256636605646,0.3615903
+SW_50,0.3,0.7,What changes did the FIA implement after Senna's death?,0.2,0.3333333333333333,1,0.9172295453213862,0.52632517
+SW_50,0.5,0.5,What changes did the FIA implement after Senna's death?,0.2,0.5,1,0.9343193110327038,0.5263251
+SW_50,0.7,0.30000000000000004,What changes did the FIA implement after Senna's death?,0.2,0.5,1,0.9343193110327038,0.5263251
+SW_20,0.3,0.7,What changes did the FIA implement after Senna's death?,0.2,0.5,1,0.9116334967179598,0.54560006
+SW_20,0.5,0.5,What changes did the FIA implement after Senna's death?,0.2,0.5,1,0.9116334967179598,0.54560006
+SW_20,0.7,0.30000000000000004,What changes did the FIA implement after Senna's death?,0.2,0.5,1,0.9116334967179598,0.54560006
+SW_0,0.3,0.7,What changes did the FIA implement after Senna's death?,0.2,0.5,1,0.9510971519436866,0.51509404
+SW_0,0.5,0.5,What changes did the FIA implement after Senna's death?,0.2,1.0,1,0.9929902453877546,0.48034388
+SW_0,0.7,0.30000000000000004,What changes did the FIA implement after Senna's death?,0.2,1.0,1,0.9929902453877546,0.48034388
+Semantic,0.3,0.7,What changes did the FIA implement after Senna's death?,0.2,1.0,1,0.9884837420543509,0.4556082
+Semantic,0.5,0.5,What changes did the FIA implement after Senna's death?,0.2,1.0,1,0.9956196480302635,0.41861764
+Semantic,0.7,0.30000000000000004,What changes did the FIA implement after Senna's death?,0.2,1.0,1,0.9956196480302635,0.41861764
+Topic,0.3,0.7,What changes did the FIA implement after Senna's death?,0.0,0.0,0,0.9669195487235017,0.39724648
+Topic,0.5,0.5,What changes did the FIA implement after Senna's death?,0.0,0.0,0,0.886718857756456,0.36561456
+Topic,0.7,0.30000000000000004,What changes did the FIA implement after Senna's death?,0.0,0.0,0,0.9421197076668758,0.33640367
+SW_50,0.3,0.7,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,0.8,1.0,1,0.9996249012337968,0.68881464
+SW_50,0.5,0.5,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,0.8,1.0,1,0.9996249012337968,0.68881464
+SW_50,0.7,0.30000000000000004,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,0.8,1.0,1,0.9957351023199816,0.68881464
+SW_20,0.3,0.7,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,1.0,1.0,1,0.9991947553596702,0.67767626
+SW_20,0.5,0.5,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,1.0,1.0,1,0.996639750392522,0.67767626
+SW_20,0.7,0.30000000000000004,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,0.8,1.0,1,0.9973992422269078,0.6599045
+SW_0,0.3,0.7,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,0.6,1.0,1,0.9994625321961779,0.641156
+SW_0,0.5,0.5,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,0.6,1.0,1,0.9994625321961779,0.641156
+SW_0,0.7,0.30000000000000004,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,0.6,1.0,1,0.990096487075351,0.64115596
+Semantic,0.3,0.7,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,1.0,1.0,1,0.9993181178525787,0.8034655
+Semantic,0.5,0.5,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,1.0,1.0,1,0.9985901696674663,0.8034655
+Semantic,0.7,0.30000000000000004,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,1.0,1.0,1,0.999815556472726,0.7875795
+Topic,0.3,0.7,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,1.0,1.0,1,0.9974852118988062,0.6754266
+Topic,0.5,0.5,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,0.8,1.0,1,0.997499877784927,0.6435843
+Topic,0.7,0.30000000000000004,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,0.6,1.0,1,0.9959343335751106,0.6103637
+SW_50,0.3,0.7,How many consecutive Constructors' Championships did Ferrari win?,0.8,1.0,1,0.9976214324091138,0.66632295
+SW_50,0.5,0.5,How many consecutive Constructors' Championships did Ferrari win?,0.4,1.0,1,1.0,0.6248306
+SW_50,0.7,0.30000000000000004,How many consecutive Constructors' Championships did Ferrari win?,0.4,1.0,1,0.9978801574400965,0.6248306
+SW_20,0.3,0.7,How many consecutive Constructors' Championships did Ferrari win?,0.6,1.0,1,0.9980170421674429,0.6304949
+SW_20,0.5,0.5,How many consecutive Constructors' Championships did Ferrari win?,0.6,1.0,1,0.9947283847246268,0.6304949
+SW_20,0.7,0.30000000000000004,How many consecutive Constructors' Championships did Ferrari win?,0.6,1.0,1,0.9947283847246268,0.6304949
+SW_0,0.3,0.7,How many consecutive Constructors' Championships did Ferrari win?,0.4,1.0,1,0.9989014919772707,0.6049193
+SW_0,0.5,0.5,How many consecutive Constructors' Championships did Ferrari win?,0.4,1.0,1,0.9915692921076421,0.6049193
+SW_0,0.7,0.30000000000000004,How many consecutive Constructors' Championships did Ferrari win?,0.4,1.0,1,0.9908781589096938,0.6049193
+Semantic,0.3,0.7,How many consecutive Constructors' Championships did Ferrari win?,1.0,1.0,1,0.9993372535423137,0.73966396
+Semantic,0.5,0.5,How many consecutive Constructors' Championships did Ferrari win?,1.0,1.0,1,1.0,0.7275251
+Semantic,0.7,0.30000000000000004,How many consecutive Constructors' Championships did Ferrari win?,0.8,1.0,1,1.0,0.7038587
+Topic,0.3,0.7,How many consecutive Constructors' Championships did Ferrari win?,0.4,1.0,1,0.9851739297775323,0.6032954
+Topic,0.5,0.5,How many consecutive Constructors' Championships did Ferrari win?,0.2,1.0,1,0.9984817630024844,0.5182881
+Topic,0.7,0.30000000000000004,How many consecutive Constructors' Championships did Ferrari win?,0.2,1.0,1,0.9984817630024844,0.5182881
+SW_50,0.3,0.7,What major rule change occurred in Formula One in 2014?,0.0,0.0,0,0.814943043708747,0.3443392
+SW_50,0.5,0.5,What major rule change occurred in Formula One in 2014?,0.0,0.0,0,0.8607198540431095,0.38881648
+SW_50,0.7,0.30000000000000004,What major rule change occurred in Formula One in 2014?,0.0,0.0,0,0.8607198540431095,0.38881648
+SW_20,0.3,0.7,What major rule change occurred in Formula One in 2014?,0.0,0.0,0,0.8371299225549287,0.2961069
+SW_20,0.5,0.5,What major rule change occurred in Formula One in 2014?,0.0,0.0,0,0.8833414020667506,0.2875941
+SW_20,0.7,0.30000000000000004,What major rule change occurred in Formula One in 2014?,0.0,0.0,0,0.8833414020667506,0.2875941
+SW_0,0.3,0.7,What major rule change occurred in Formula One in 2014?,0.0,0.0,0,0.8340023844026985,0.31431222
+SW_0,0.5,0.5,What major rule change occurred in Formula One in 2014?,0.0,0.0,0,0.8876726437155057,0.31431222
+SW_0,0.7,0.30000000000000004,What major rule change occurred in Formula One in 2014?,0.0,0.0,0,0.8840289709126866,0.3439799
+Semantic,0.3,0.7,What major rule change occurred in Formula One in 2014?,0.2,0.5,1,0.7647834378356319,0.32481998
+Semantic,0.5,0.5,What major rule change occurred in Formula One in 2014?,0.2,0.5,1,0.7663643854651333,0.30786937
+Semantic,0.7,0.30000000000000004,What major rule change occurred in Formula One in 2014?,0.2,0.5,1,0.7663643854651333,0.30786937
+Topic,0.3,0.7,What major rule change occurred in Formula One in 2014?,0.2,1.0,1,0.9846970409676634,0.34963366
+Topic,0.5,0.5,What major rule change occurred in Formula One in 2014?,0.2,1.0,1,0.9846970409676634,0.34963366
+Topic,0.7,0.30000000000000004,What major rule change occurred in Formula One in 2014?,0.2,1.0,1,0.9846970409676634,0.34963366
+SW_50,0.3,0.7,Which team dominated Formula One from 2014 to 2021?,0.0,0.0,0,0.9916362041633519,0.4905037
+SW_50,0.5,0.5,Which team dominated Formula One from 2014 to 2021?,0.0,0.0,0,0.9920189739848481,0.49692488
+SW_50,0.7,0.30000000000000004,Which team dominated Formula One from 2014 to 2021?,0.0,0.0,0,0.9851008558452625,0.4067847
+SW_20,0.3,0.7,Which team dominated Formula One from 2014 to 2021?,0.0,0.0,0,0.9531757786197315,0.49360523
+SW_20,0.5,0.5,Which team dominated Formula One from 2014 to 2021?,0.0,0.0,0,0.9509354099065677,0.4053926
+SW_20,0.7,0.30000000000000004,Which team dominated Formula One from 2014 to 2021?,0.0,0.0,0,0.9509354099065677,0.4053926
+SW_0,0.3,0.7,Which team dominated Formula One from 2014 to 2021?,0.0,0.0,0,0.9965167303542327,0.487343
+SW_0,0.5,0.5,Which team dominated Formula One from 2014 to 2021?,0.0,0.0,0,0.9964709697355812,0.4873983
+SW_0,0.7,0.30000000000000004,Which team dominated Formula One from 2014 to 2021?,0.0,0.0,0,0.9868576016899705,0.4873983
+Semantic,0.3,0.7,Which team dominated Formula One from 2014 to 2021?,0.0,0.0,0,0.9153005974891656,0.27441615
+Semantic,0.5,0.5,Which team dominated Formula One from 2014 to 2021?,0.0,0.0,0,0.9816432019758838,0.27441615
+Semantic,0.7,0.30000000000000004,Which team dominated Formula One from 2014 to 2021?,0.0,0.0,0,0.9939512535919679,0.27441615
+Topic,0.3,0.7,Which team dominated Formula One from 2014 to 2021?,0.0,0.0,0,0.9573909188837704,0.33015007
+Topic,0.5,0.5,Which team dominated Formula One from 2014 to 2021?,0.0,0.0,0,0.9681641016187891,0.25100973
+Topic,0.7,0.30000000000000004,Which team dominated Formula One from 2014 to 2021?,0.0,0.0,0,0.9681641016187891,0.25100973
+SW_50,0.3,0.7,How many consecutive Constructors' Championships did Mercedes win?,0.2,1.0,1,0.9965321197613524,0.5613379
+SW_50,0.5,0.5,How many consecutive Constructors' Championships did Mercedes win?,0.2,1.0,1,0.994302819465524,0.5613378
+SW_50,0.7,0.30000000000000004,How many consecutive Constructors' Championships did Mercedes win?,0.2,1.0,1,0.994302819465524,0.5613378
+SW_20,0.3,0.7,How many consecutive Constructors' Championships did Mercedes win?,0.2,1.0,1,0.9993355012682466,0.5032557
+SW_20,0.5,0.5,How many consecutive Constructors' Championships did Mercedes win?,0.2,1.0,1,0.996743496710496,0.5225576
+SW_20,0.7,0.30000000000000004,How many consecutive Constructors' Championships did Mercedes win?,0.2,1.0,1,0.996743496710496,0.5225576
+SW_0,0.3,0.7,How many consecutive Constructors' Championships did Mercedes win?,0.2,1.0,1,1.0,0.52243435
+SW_0,0.5,0.5,How many consecutive Constructors' Championships did Mercedes win?,0.2,1.0,1,0.9886073018497024,0.4874862
+SW_0,0.7,0.30000000000000004,How many consecutive Constructors' Championships did Mercedes win?,0.2,1.0,1,0.9891403901217853,0.48324046
+Semantic,0.3,0.7,How many consecutive Constructors' Championships did Mercedes win?,0.8,1.0,1,0.9801797197964545,0.6821933
+Semantic,0.5,0.5,How many consecutive Constructors' Championships did Mercedes win?,0.8,0.5,1,0.9421052779704308,0.6821933
+Semantic,0.7,0.30000000000000004,How many consecutive Constructors' Championships did Mercedes win?,0.8,0.5,1,0.9388176507942508,0.6821933
+Topic,0.3,0.7,How many consecutive Constructors' Championships did Mercedes win?,0.2,0.3333333333333333,1,0.9714434774742677,0.5282482
+Topic,0.5,0.5,How many consecutive Constructors' Championships did Mercedes win?,0.2,0.2,1,0.9413309194513788,0.52824825
+Topic,0.7,0.30000000000000004,How many consecutive Constructors' Championships did Mercedes win?,0.2,0.2,1,0.8999094241490386,0.52824825
+SW_50,0.3,0.7,How many Drivers' Championships did Lewis Hamilton win during Mercedes' dominance?,1.0,1.0,1,0.9933131085804198,0.7619177
+SW_50,0.5,0.5,How many Drivers' Championships did Lewis Hamilton win during Mercedes' dominance?,1.0,1.0,1,0.9958025706159108,0.7403899
+SW_50,0.7,0.30000000000000004,How many Drivers' Championships did Lewis Hamilton win during Mercedes' dominance?,1.0,1.0,1,0.9914671156364868,0.7403899
+SW_20,0.3,0.7,How many Drivers' Championships did Lewis Hamilton win during Mercedes' dominance?,0.8,1.0,1,0.9977452073222238,0.6986636
+SW_20,0.5,0.5,How many Drivers' Championships did Lewis Hamilton win during Mercedes' dominance?,0.8,1.0,1,0.9979034734305242,0.6986636
+SW_20,0.7,0.30000000000000004,How many Drivers' Championships did Lewis Hamilton win during Mercedes' dominance?,0.8,1.0,1,0.9915335447554575,0.6986636
+SW_0,0.3,0.7,How many Drivers' Championships did Lewis Hamilton win during Mercedes' dominance?,0.8,1.0,1,0.9989720188435246,0.69448227
+SW_0,0.5,0.5,How many Drivers' Championships did Lewis Hamilton win during Mercedes' dominance?,0.8,1.0,1,1.0,0.67871916
+SW_0,0.7,0.30000000000000004,How many Drivers' Championships did Lewis Hamilton win during Mercedes' dominance?,0.8,1.0,1,0.9870878828767701,0.67871916
+Semantic,0.3,0.7,How many Drivers' Championships did Lewis Hamilton win during Mercedes' dominance?,1.0,1.0,1,0.9990296942846784,0.7974128
+Semantic,0.5,0.5,How many Drivers' Championships did Lewis Hamilton win during Mercedes' dominance?,0.8,1.0,1,0.9280116941642197,0.7435168
+Semantic,0.7,0.30000000000000004,How many Drivers' Championships did Lewis Hamilton win during Mercedes' dominance?,0.8,0.5,1,0.9080373813675209,0.68915284
+Topic,0.3,0.7,How many Drivers' Championships did Lewis Hamilton win during Mercedes' dominance?,0.6,1.0,1,0.9892976277296797,0.666609
+Topic,0.5,0.5,How many Drivers' Championships did Lewis Hamilton win during Mercedes' dominance?,0.6,1.0,1,0.9767346447876395,0.666609
+Topic,0.7,0.30000000000000004,How many Drivers' Championships did Lewis Hamilton win during Mercedes' dominance?,0.4,0.5,1,0.8913373003912185,0.5852631
+SW_50,0.3,0.7,What major rule changes were introduced in Formula One in 2022?,0.2,1.0,1,0.9803266098075306,0.5430852
+SW_50,0.5,0.5,What major rule changes were introduced in Formula One in 2022?,0.4,1.0,1,0.9548945053542485,0.61135757
+SW_50,0.7,0.30000000000000004,What major rule changes were introduced in Formula One in 2022?,0.4,1.0,1,0.9548945053542485,0.61135757
+SW_20,0.3,0.7,What major rule changes were introduced in Formula One in 2022?,0.4,1.0,1,0.9621116075353946,0.5794281
+SW_20,0.5,0.5,What major rule changes were introduced in Formula One in 2022?,0.4,1.0,1,0.9779247098049547,0.56838506
+SW_20,0.7,0.30000000000000004,What major rule changes were introduced in Formula One in 2022?,0.4,1.0,1,0.9779247098049547,0.56838506
+SW_0,0.3,0.7,What major rule changes were introduced in Formula One in 2022?,0.2,1.0,1,0.9805675750122647,0.51484126
+SW_0,0.5,0.5,What major rule changes were introduced in Formula One in 2022?,0.2,1.0,1,0.9895510641846158,0.4808918
+SW_0,0.7,0.30000000000000004,What major rule changes were introduced in Formula One in 2022?,0.2,1.0,1,0.99042084516881,0.47649735
+Semantic,0.3,0.7,What major rule changes were introduced in Formula One in 2022?,0.4,1.0,1,0.9638290977773285,0.53335285
+Semantic,0.5,0.5,What major rule changes were introduced in Formula One in 2022?,0.0,0.0,0,0.9957522543106688,0.4013447
+Semantic,0.7,0.30000000000000004,What major rule changes were introduced in Formula One in 2022?,0.0,0.0,0,0.9973573430387722,0.3924596
+Topic,0.3,0.7,What major rule changes were introduced in Formula One in 2022?,0.4,1.0,1,0.9754054400105416,0.56339884
+Topic,0.5,0.5,What major rule changes were introduced in Formula One in 2022?,0.4,0.25,1,0.7811598967160759,0.56339884
+Topic,0.7,0.30000000000000004,What major rule changes were introduced in Formula One in 2022?,0.0,0.0,0,0.9450672871949103,0.36124164
+SW_50,0.3,0.7,Which team dominated after the 2022 rule changes?,0.4,1.0,1,0.995637532828795,0.45115748
+SW_50,0.5,0.5,Which team dominated after the 2022 rule changes?,0.4,1.0,1,0.9348248363033255,0.45115748
+SW_50,0.7,0.30000000000000004,Which team dominated after the 2022 rule changes?,0.2,0.5,1,0.8814985731962746,0.39894044
+SW_20,0.3,0.7,Which team dominated after the 2022 rule changes?,0.2,1.0,1,0.9930982807078944,0.43298164
+SW_20,0.5,0.5,Which team dominated after the 2022 rule changes?,0.2,1.0,1,0.9968180752474639,0.43298164
+SW_20,0.7,0.30000000000000004,Which team dominated after the 2022 rule changes?,0.2,1.0,1,0.9968180752474639,0.43298164
+SW_0,0.3,0.7,Which team dominated after the 2022 rule changes?,0.2,1.0,1,0.9860714200958496,0.4518693
+SW_0,0.5,0.5,Which team dominated after the 2022 rule changes?,0.2,1.0,1,0.9860714200958496,0.4518693
+SW_0,0.7,0.30000000000000004,Which team dominated after the 2022 rule changes?,0.2,0.3333333333333333,1,0.8718292823842477,0.45186925
+Semantic,0.3,0.7,Which team dominated after the 2022 rule changes?,0.2,0.3333333333333333,1,0.7983874837634563,0.45890707
+Semantic,0.5,0.5,Which team dominated after the 2022 rule changes?,0.2,0.3333333333333333,1,0.8031071833674246,0.395016
+Semantic,0.7,0.30000000000000004,Which team dominated after the 2022 rule changes?,0.2,0.3333333333333333,1,0.8031071833674246,0.395016
+Topic,0.3,0.7,Which team dominated after the 2022 rule changes?,0.2,0.3333333333333333,1,0.7992029461735763,0.43600768
+Topic,0.5,0.5,Which team dominated after the 2022 rule changes?,0.2,0.5,1,0.8177104780046416,0.40921348
+Topic,0.7,0.30000000000000004,Which team dominated after the 2022 rule changes?,0.2,0.5,1,0.8122711028445228,0.40921348
+SW_50,0.3,0.7,What is the current Formula One points system for race winners?,0.4,1.0,1,0.9925412096874026,0.6055538
+SW_50,0.5,0.5,What is the current Formula One points system for race winners?,0.4,1.0,1,1.0,0.55841506
+SW_50,0.7,0.30000000000000004,What is the current Formula One points system for race winners?,0.4,1.0,1,0.9962890094158813,0.55841506
+SW_20,0.3,0.7,What is the current Formula One points system for race winners?,0.2,1.0,1,0.9897234849360125,0.5710416
+SW_20,0.5,0.5,What is the current Formula One points system for race winners?,0.2,1.0,1,0.989180300410547,0.52240765
+SW_20,0.7,0.30000000000000004,What is the current Formula One points system for race winners?,0.2,1.0,1,0.9868806504667155,0.52240765
+SW_0,0.3,0.7,What is the current Formula One points system for race winners?,0.6,1.0,1,0.9775998752888444,0.54870975
+SW_0,0.5,0.5,What is the current Formula One points system for race winners?,0.4,1.0,1,0.9863257757567534,0.521875
+SW_0,0.7,0.30000000000000004,What is the current Formula One points system for race winners?,0.4,1.0,1,0.9880317301860585,0.49878567
+Semantic,0.3,0.7,What is the current Formula One points system for race winners?,0.6,1.0,1,0.997609028468478,0.6364821
+Semantic,0.5,0.5,What is the current Formula One points system for race winners?,0.4,1.0,1,0.942570111741271,0.530903
+Semantic,0.7,0.30000000000000004,What is the current Formula One points system for race winners?,0.4,0.5,1,0.8323784952376583,0.530903
+Topic,0.3,0.7,What is the current Formula One points system for race winners?,0.6,1.0,1,1.0,0.61530066
+Topic,0.5,0.5,What is the current Formula One points system for race winners?,0.6,1.0,1,0.9559858238808849,0.6153006
+Topic,0.7,0.30000000000000004,What is the current Formula One points system for race winners?,0.2,1.0,1,0.9997784291739922,0.48662058
+SW_50,0.3,0.7,What percentage of the race distance must a driver complete to receive points?,0.4,1.0,1,0.9993839178665684,0.5841442
+SW_50,0.5,0.5,What percentage of the race distance must a driver complete to receive points?,0.4,1.0,1,0.9974815952651064,0.5563312
+SW_50,0.7,0.30000000000000004,What percentage of the race distance must a driver complete to receive points?,0.4,1.0,1,0.9973400987951577,0.54517365
+SW_20,0.3,0.7,What percentage of the race distance must a driver complete to receive points?,0.4,1.0,1,0.9984786204735764,0.5964788
+SW_20,0.5,0.5,What percentage of the race distance must a driver complete to receive points?,0.4,1.0,1,0.9942127653040856,0.57249576
+SW_20,0.7,0.30000000000000004,What percentage of the race distance must a driver complete to receive points?,0.4,1.0,1,0.9967021698404681,0.55151165
+SW_0,0.3,0.7,What percentage of the race distance must a driver complete to receive points?,0.2,1.0,1,0.9872585548509282,0.5364064
+SW_0,0.5,0.5,What percentage of the race distance must a driver complete to receive points?,0.2,1.0,1,0.9872585548509282,0.5364064
+SW_0,0.7,0.30000000000000004,What percentage of the race distance must a driver complete to receive points?,0.2,1.0,1,0.994540769430548,0.5097546
+Semantic,0.3,0.7,What percentage of the race distance must a driver complete to receive points?,0.8,1.0,1,1.0,0.7113448
+Semantic,0.5,0.5,What percentage of the race distance must a driver complete to receive points?,0.8,1.0,1,0.9978405867840302,0.7113448
+Semantic,0.7,0.30000000000000004,What percentage of the race distance must a driver complete to receive points?,0.6,1.0,1,1.0,0.6268269
+Topic,0.3,0.7,What percentage of the race distance must a driver complete to receive points?,0.6,1.0,1,0.9991319428972495,0.6593967
+Topic,0.5,0.5,What percentage of the race distance must a driver complete to receive points?,0.6,1.0,1,0.9953743144131776,0.6593967
+Topic,0.7,0.30000000000000004,What percentage of the race distance must a driver complete to receive points?,0.6,1.0,1,0.9862991599962115,0.58899915
+SW_50,0.3,0.7,Who owns the Formula One Group?,0.2,0.3333333333333333,1,0.9255643981812145,0.44761127
+SW_50,0.5,0.5,Who owns the Formula One Group?,0.2,0.25,1,0.7855841266343346,0.32750362
+SW_50,0.7,0.30000000000000004,Who owns the Formula One Group?,0.0,0.0,0,0.8502141914418924,0.28468496
+SW_20,0.3,0.7,Who owns the Formula One Group?,0.0,0.0,0,0.9748847032338565,0.47704166
+SW_20,0.5,0.5,Who owns the Formula One Group?,0.0,0.0,0,0.8462264143955898,0.3926763
+SW_20,0.7,0.30000000000000004,Who owns the Formula One Group?,0.0,0.0,0,0.8028101787096829,0.3926763
+SW_0,0.3,0.7,Who owns the Formula One Group?,0.0,0.0,0,0.9470327447449091,0.44372138
+SW_0,0.5,0.5,Who owns the Formula One Group?,0.0,0.0,0,0.7425595373747808,0.3642183
+SW_0,0.7,0.30000000000000004,Who owns the Formula One Group?,0.0,0.0,0,0.7617019489295749,0.31573495
+Semantic,0.3,0.7,Who owns the Formula One Group?,0.4,1.0,1,0.9835853062766915,0.631778
+Semantic,0.5,0.5,Who owns the Formula One Group?,0.4,0.5,1,0.8636081295350018,0.631778
+Semantic,0.7,0.30000000000000004,Who owns the Formula One Group?,0.2,0.3333333333333333,1,0.8392537761326347,0.56415635
+Topic,0.3,0.7,Who owns the Formula One Group?,0.4,1.0,1,0.9921011494213624,0.6140563
+Topic,0.5,0.5,Who owns the Formula One Group?,0.4,1.0,1,0.9774877730230258,0.61405635
+Topic,0.7,0.30000000000000004,Who owns the Formula One Group?,0.4,0.5,1,0.870208397239459,0.6140563
+SW_50,0.3,0.7,What is the minimum weight of a Formula One car including the driver but not fuel?,0.0,0.0,0,0.9937450935226863,0.48533183
+SW_50,0.5,0.5,What is the minimum weight of a Formula One car including the driver but not fuel?,0.0,0.0,0,0.9900752238567556,0.48533183
+SW_50,0.7,0.30000000000000004,What is the minimum weight of a Formula One car including the driver but not fuel?,0.0,0.0,0,0.9900752238567556,0.48533183
+SW_20,0.3,0.7,What is the minimum weight of a Formula One car including the driver but not fuel?,0.0,0.0,0,0.9853722206493579,0.4410452
+SW_20,0.5,0.5,What is the minimum weight of a Formula One car including the driver but not fuel?,0.0,0.0,0,0.9853722206493579,0.4410452
+SW_20,0.7,0.30000000000000004,What is the minimum weight of a Formula One car including the driver but not fuel?,0.0,0.0,0,0.9740157109438176,0.4224524
+SW_0,0.3,0.7,What is the minimum weight of a Formula One car including the driver but not fuel?,0.0,0.0,0,0.99989779047958,0.44075337
+SW_0,0.5,0.5,What is the minimum weight of a Formula One car including the driver but not fuel?,0.0,0.0,0,0.9925658108494145,0.43642014
+SW_0,0.7,0.30000000000000004,What is the minimum weight of a Formula One car including the driver but not fuel?,0.0,0.0,0,0.9923307405107257,0.41452223
+Semantic,0.3,0.7,What is the minimum weight of a Formula One car including the driver but not fuel?,0.2,1.0,1,0.9800771411861429,0.5496875
+Semantic,0.5,0.5,What is the minimum weight of a Formula One car including the driver but not fuel?,0.2,1.0,1,0.9744009423172022,0.54968756
+Semantic,0.7,0.30000000000000004,What is the minimum weight of a Formula One car including the driver but not fuel?,0.2,1.0,1,0.9760992725920732,0.5433558
+Topic,0.3,0.7,What is the minimum weight of a Formula One car including the driver but not fuel?,0.2,1.0,1,0.993602002112767,0.50877917
+Topic,0.5,0.5,What is the minimum weight of a Formula One car including the driver but not fuel?,0.2,1.0,1,0.983520121320987,0.50877917
+Topic,0.7,0.30000000000000004,What is the minimum weight of a Formula One car including the driver but not fuel?,0.2,1.0,1,0.9788587029435111,0.5065673
+SW_50,0.3,0.7,What type of brakes do Formula One cars use?,0.2,0.3333333333333333,1,0.932699548115882,0.39824253
+SW_50,0.5,0.5,What type of brakes do Formula One cars use?,0.2,0.2,1,0.8864368428547283,0.39824253
+SW_50,0.7,0.30000000000000004,What type of brakes do Formula One cars use?,0.0,0.0,0,0.955811643759555,0.3075549
+SW_20,0.3,0.7,What type of brakes do Formula One cars use?,0.0,0.0,0,0.9530971767077594,0.22045223
+SW_20,0.5,0.5,What type of brakes do Formula One cars use?,0.0,0.0,0,0.8554550028181747,0.25927922
+SW_20,0.7,0.30000000000000004,What type of brakes do Formula One cars use?,0.0,0.0,0,0.8554550028181747,0.25927922
+SW_0,0.3,0.7,What type of brakes do Formula One cars use?,0.2,1.0,1,0.9859687634605375,0.27796346
+SW_0,0.5,0.5,What type of brakes do Formula One cars use?,0.2,0.5,1,0.7620985727037599,0.2635092
+SW_0,0.7,0.30000000000000004,What type of brakes do Formula One cars use?,0.2,0.25,1,0.6776849967640756,0.28045443
+Semantic,0.3,0.7,What type of brakes do Formula One cars use?,0.0,0.0,0,0.6931835401113681,0.19627753
+Semantic,0.5,0.5,What type of brakes do Formula One cars use?,0.0,0.0,0,0.8985131824359813,0.06834526
+Semantic,0.7,0.30000000000000004,What type of brakes do Formula One cars use?,0.0,0.0,0,0.8779497602774126,0.06609213
+Topic,0.3,0.7,What type of brakes do Formula One cars use?,0.0,0.0,0,0.7527365175182615,0.21819636
+Topic,0.5,0.5,What type of brakes do Formula One cars use?,0.0,0.0,0,0.8379165197132218,0.13004106
+Topic,0.7,0.30000000000000004,What type of brakes do Formula One cars use?,0.0,0.0,0,0.815475523046057,0.13301554
+SW_50,0.3,0.7,What is the current maximum number of engines a driver can use in a season?,0.2,1.0,1,0.9993434279419634,0.4272059
+SW_50,0.5,0.5,What is the current maximum number of engines a driver can use in a season?,0.2,0.5,1,0.9685473118922829,0.4272059
+SW_50,0.7,0.30000000000000004,What is the current maximum number of engines a driver can use in a season?,0.0,0.0,0,0.9693260464712067,0.37385732
+SW_20,0.3,0.7,What is the current maximum number of engines a driver can use in a season?,0.2,1.0,1,0.9984628833251991,0.4198587
+SW_20,0.5,0.5,What is the current maximum number of engines a driver can use in a season?,0.2,0.5,1,0.9480141438700436,0.43049312
+SW_20,0.7,0.30000000000000004,What is the current maximum number of engines a driver can use in a season?,0.2,0.5,1,0.9480141438700436,0.43049312
+SW_0,0.3,0.7,What is the current maximum number of engines a driver can use in a season?,0.0,0.0,0,0.9795869019835232,0.37263098
+SW_0,0.5,0.5,What is the current maximum number of engines a driver can use in a season?,0.0,0.0,0,0.9751357974148496,0.3643188
+SW_0,0.7,0.30000000000000004,What is the current maximum number of engines a driver can use in a season?,0.0,0.0,0,0.9751357974148496,0.3643188
+Semantic,0.3,0.7,What is the current maximum number of engines a driver can use in a season?,0.2,0.3333333333333333,1,0.8923675544646759,0.5519744
+Semantic,0.5,0.5,What is the current maximum number of engines a driver can use in a season?,0.2,0.25,1,0.8594121504625855,0.5325637
+Semantic,0.7,0.30000000000000004,What is the current maximum number of engines a driver can use in a season?,0.0,0.0,0,0.9912518494436097,0.4008606
+Topic,0.3,0.7,What is the current maximum number of engines a driver can use in a season?,0.2,0.5,1,0.9023412067920458,0.49924406
+Topic,0.5,0.5,What is the current maximum number of engines a driver can use in a season?,0.2,0.5,1,0.8957781467933822,0.4788949
+Topic,0.7,0.30000000000000004,What is the current maximum number of engines a driver can use in a season?,0.0,0.0,0,0.9809947105056993,0.33188945
+SW_50,0.3,0.7,What is a grid penalty in Formula One?,0.0,0.0,0,0.8978899351089116,0.35728234
+SW_50,0.5,0.5,What is a grid penalty in Formula One?,0.0,0.0,0,0.800542875424292,0.3408143
+SW_50,0.7,0.30000000000000004,What is a grid penalty in Formula One?,0.0,0.0,0,0.770300336155471,0.3129245
+SW_20,0.3,0.7,What is a grid penalty in Formula One?,0.0,0.0,0,0.9498786723761101,0.3115609
+SW_20,0.5,0.5,What is a grid penalty in Formula One?,0.0,0.0,0,0.8335219443840781,0.2187545
+SW_20,0.7,0.30000000000000004,What is a grid penalty in Formula One?,0.0,0.0,0,0.8951508965010067,0.19748583
+SW_0,0.3,0.7,What is a grid penalty in Formula One?,0.0,0.0,0,0.9624773933463929,0.2921005
+SW_0,0.5,0.5,What is a grid penalty in Formula One?,0.0,0.0,0,0.9597186396245625,0.24184212
+SW_0,0.7,0.30000000000000004,What is a grid penalty in Formula One?,0.0,0.0,0,0.8484179906304932,0.24637315
+Semantic,0.3,0.7,What is a grid penalty in Formula One?,0.0,0.0,0,0.9463917601211271,0.302311
+Semantic,0.5,0.5,What is a grid penalty in Formula One?,0.0,0.0,0,0.9962719142793152,0.27973652
+Semantic,0.7,0.30000000000000004,What is a grid penalty in Formula One?,0.0,0.0,0,0.9689690603898294,0.24481349
+Topic,0.3,0.7,What is a grid penalty in Formula One?,0.0,0.0,0,0.9899963563467763,0.2855294
+Topic,0.5,0.5,What is a grid penalty in Formula One?,0.0,0.0,0,0.9972479546962896,0.2818676
+Topic,0.7,0.30000000000000004,What is a grid penalty in Formula One?,0.0,0.0,0,0.9951375666787748,0.2662725
+SW_50,0.3,0.7,How many times can a Formula One gearbox be used before replacement?,0.2,0.5,1,0.9716808687246689,0.36252362
+SW_50,0.5,0.5,How many times can a Formula One gearbox be used before replacement?,0.2,0.5,1,0.9731355494043044,0.35431227
+SW_50,0.7,0.30000000000000004,How many times can a Formula One gearbox be used before replacement?,0.2,0.5,1,0.9731355494043044,0.35431227
+SW_20,0.3,0.7,How many times can a Formula One gearbox be used before replacement?,0.2,1.0,1,0.9844121340523597,0.3533997
+SW_20,0.5,0.5,How many times can a Formula One gearbox be used before replacement?,0.2,1.0,1,1.0,0.30854446
+SW_20,0.7,0.30000000000000004,How many times can a Formula One gearbox be used before replacement?,0.2,1.0,1,1.0,0.30854446
+SW_0,0.3,0.7,How many times can a Formula One gearbox be used before replacement?,0.2,1.0,1,0.9648247794048663,0.33420908
+SW_0,0.5,0.5,How many times can a Formula One gearbox be used before replacement?,0.2,1.0,1,0.9663115689573092,0.3090859
+SW_0,0.7,0.30000000000000004,How many times can a Formula One gearbox be used before replacement?,0.2,1.0,1,0.9663115689573092,0.3090859
+Semantic,0.3,0.7,How many times can a Formula One gearbox be used before replacement?,0.2,1.0,1,0.9968988602287029,0.4330948
+Semantic,0.5,0.5,How many times can a Formula One gearbox be used before replacement?,0.2,0.2,1,0.7712450247685426,0.4330948
+Semantic,0.7,0.30000000000000004,How many times can a Formula One gearbox be used before replacement?,0.0,0.0,0,0.9790852469213978,0.29054147
+Topic,0.3,0.7,How many times can a Formula One gearbox be used before replacement?,0.2,1.0,1,0.9828818583722397,0.5229167
+Topic,0.5,0.5,How many times can a Formula One gearbox be used before replacement?,0.2,0.3333333333333333,1,0.818746835582954,0.4171775
+Topic,0.7,0.30000000000000004,How many times can a Formula One gearbox be used before replacement?,0.2,0.2,1,0.7575593052557011,0.4171775
+SW_50,0.3,0.7,What is the DRS in Formula One?,0.0,0.0,0,0.9307391396061931,0.15990055
+SW_50,0.5,0.5,What is the DRS in Formula One?,0.0,0.0,0,0.828069535128264,0.16193786
+SW_50,0.7,0.30000000000000004,What is the DRS in Formula One?,0.0,0.0,0,0.8212173975857773,0.16350262
+SW_20,0.3,0.7,What is the DRS in Formula One?,0.0,0.0,0,0.963465854488766,0.16535969
+SW_20,0.5,0.5,What is the DRS in Formula One?,0.0,0.0,0,0.9317767393705807,0.16804293
+SW_20,0.7,0.30000000000000004,What is the DRS in Formula One?,0.0,0.0,0,0.9192852744817935,0.1698232
+SW_0,0.3,0.7,What is the DRS in Formula One?,0.0,0.0,0,0.9102249433318385,0.16885674
+SW_0,0.5,0.5,What is the DRS in Formula One?,0.0,0.0,0,0.8376436958567715,0.16885674
+SW_0,0.7,0.30000000000000004,What is the DRS in Formula One?,0.0,0.0,0,0.8431684771267187,0.15419121
+Semantic,0.3,0.7,What is the DRS in Formula One?,0.0,0.0,0,0.9105485264123193,0.23550698
+Semantic,0.5,0.5,What is the DRS in Formula One?,0.0,0.0,0,0.9899557196046058,0.2116768
+Semantic,0.7,0.30000000000000004,What is the DRS in Formula One?,0.0,0.0,0,0.9960502426386366,0.18137304
+Topic,0.3,0.7,What is the DRS in Formula One?,0.0,0.0,0,0.990564208422388,0.23716645
+Topic,0.5,0.5,What is the DRS in Formula One?,0.0,0.0,0,1.0,0.21832153
+Topic,0.7,0.30000000000000004,What is the DRS in Formula One?,0.0,0.0,0,0.9989908706081186,0.21281762
+SW_50,0.3,0.7,What is the purpose of a Safety Car in Formula One?,0.6,1.0,1,0.9495929015160007,0.6324425
+SW_50,0.5,0.5,What is the purpose of a Safety Car in Formula One?,0.6,1.0,1,0.9365923753677686,0.6324425
+SW_50,0.7,0.30000000000000004,What is the purpose of a Safety Car in Formula One?,0.6,1.0,1,0.9223156950273902,0.53322625
+SW_20,0.3,0.7,What is the purpose of a Safety Car in Formula One?,0.6,1.0,1,0.9684326915461885,0.6259732
+SW_20,0.5,0.5,What is the purpose of a Safety Car in Formula One?,0.6,1.0,1,0.9649766662592069,0.6259732
+SW_20,0.7,0.30000000000000004,What is the purpose of a Safety Car in Formula One?,0.4,1.0,1,0.9887677017225065,0.5454608
+SW_0,0.3,0.7,What is the purpose of a Safety Car in Formula One?,0.4,1.0,1,0.9266393944823326,0.5346252
+SW_0,0.5,0.5,What is the purpose of a Safety Car in Formula One?,0.4,1.0,1,0.8746785287891087,0.49239263
+SW_0,0.7,0.30000000000000004,What is the purpose of a Safety Car in Formula One?,0.2,1.0,1,0.9275307737158249,0.44060698
+Semantic,0.3,0.7,What is the purpose of a Safety Car in Formula One?,0.2,0.25,1,0.8128690553919062,0.46966085
+Semantic,0.5,0.5,What is the purpose of a Safety Car in Formula One?,0.2,0.25,1,0.7853923795600929,0.43589672
+Semantic,0.7,0.30000000000000004,What is the purpose of a Safety Car in Formula One?,0.0,0.0,0,0.9262255512050985,0.3256857
+Topic,0.3,0.7,What is the purpose of a Safety Car in Formula One?,0.2,0.3333333333333333,1,0.7963035501004653,0.46234322
+Topic,0.5,0.5,What is the purpose of a Safety Car in Formula One?,0.2,0.2,1,0.7465405965168808,0.4586268
+Topic,0.7,0.30000000000000004,What is the purpose of a Safety Car in Formula One?,0.2,0.25,1,0.8356160800408233,0.3894716
+SW_50,0.3,0.7,What is the Virtual Safety Car (VSC) in Formula One?,0.4,1.0,1,0.9969007699391238,0.5944874
+SW_50,0.5,0.5,What is the Virtual Safety Car (VSC) in Formula One?,0.6,1.0,1,0.9698094418191654,0.6181734
+SW_50,0.7,0.30000000000000004,What is the Virtual Safety Car (VSC) in Formula One?,0.6,1.0,1,0.9550760504542142,0.6181734
+SW_20,0.3,0.7,What is the Virtual Safety Car (VSC) in Formula One?,0.4,1.0,1,0.979424244932547,0.53053963
+SW_20,0.5,0.5,What is the Virtual Safety Car (VSC) in Formula One?,0.4,1.0,1,0.9962747857126366,0.50296867
+SW_20,0.7,0.30000000000000004,What is the Virtual Safety Car (VSC) in Formula One?,0.4,1.0,1,0.9962747857126366,0.50296867
+SW_0,0.3,0.7,What is the Virtual Safety Car (VSC) in Formula One?,0.2,1.0,1,0.9933452082702509,0.49536258
+SW_0,0.5,0.5,What is the Virtual Safety Car (VSC) in Formula One?,0.2,1.0,1,1.0,0.48615593
+SW_0,0.7,0.30000000000000004,What is the Virtual Safety Car (VSC) in Formula One?,0.2,0.5,1,0.9472264011538051,0.48615593
+Semantic,0.3,0.7,What is the Virtual Safety Car (VSC) in Formula One?,0.2,0.5,1,0.9253315486277948,0.5777103
+Semantic,0.5,0.5,What is the Virtual Safety Car (VSC) in Formula One?,0.2,1.0,1,0.9966669466918275,0.5259538
+Semantic,0.7,0.30000000000000004,What is the Virtual Safety Car (VSC) in Formula One?,0.2,1.0,1,0.9914025685952045,0.5259538
+Topic,0.3,0.7,What is the Virtual Safety Car (VSC) in Formula One?,0.2,0.5,1,0.9261410934267278,0.5713704
+Topic,0.5,0.5,What is the Virtual Safety Car (VSC) in Formula One?,0.2,1.0,1,0.9966669466918275,0.5259538
+Topic,0.7,0.30000000000000004,What is the Virtual Safety Car (VSC) in Formula One?,0.2,1.0,1,0.9914025685952045,0.5259538
+SW_50,0.3,0.7,What are the three colored tire compounds used in dry Formula One races?,0.2,0.3333333333333333,1,0.9717799104291441,0.5062083
+SW_50,0.5,0.5,What are the three colored tire compounds used in dry Formula One races?,0.2,0.25,1,0.9594044602336396,0.5062083
+SW_50,0.7,0.30000000000000004,What are the three colored tire compounds used in dry Formula One races?,0.2,0.2,1,0.9515604075149331,0.5062083
+SW_20,0.3,0.7,What are the three colored tire compounds used in dry Formula One races?,0.2,0.3333333333333333,1,0.9748925496845389,0.50438684
+SW_20,0.5,0.5,What are the three colored tire compounds used in dry Formula One races?,0.2,0.25,1,0.9662105626853517,0.4349453
+SW_20,0.7,0.30000000000000004,What are the three colored tire compounds used in dry Formula One races?,0.0,0.0,0,1.0,0.3447806
+SW_0,0.3,0.7,What are the three colored tire compounds used in dry Formula One races?,0.2,0.5,1,0.9745644881254688,0.50927144
+SW_0,0.5,0.5,What are the three colored tire compounds used in dry Formula One races?,0.2,0.5,1,0.968634766679599,0.4525074
+SW_0,0.7,0.30000000000000004,What are the three colored tire compounds used in dry Formula One races?,0.2,0.5,1,0.9722415718458187,0.40287066
+Semantic,0.3,0.7,What are the three colored tire compounds used in dry Formula One races?,0.0,0.0,0,0.979862048655633,0.50258255
+Semantic,0.5,0.5,What are the three colored tire compounds used in dry Formula One races?,0.0,0.0,0,0.9836944682872447,0.4313442
+Semantic,0.7,0.30000000000000004,What are the three colored tire compounds used in dry Formula One races?,0.0,0.0,0,0.9885784119779606,0.36572513
+Topic,0.3,0.7,What are the three colored tire compounds used in dry Formula One races?,0.0,0.0,0,0.9895065499695367,0.46536517
+Topic,0.5,0.5,What are the three colored tire compounds used in dry Formula One races?,0.0,0.0,0,0.9779542759475591,0.46536517
+Topic,0.7,0.30000000000000004,What are the three colored tire compounds used in dry Formula One races?,0.0,0.0,0,0.9621351331407709,0.37715182
+SW_50,0.3,0.7,How many sets of dry-weather tires can a driver use during a race weekend?,0.8,1.0,1,0.9999389798021547,0.69088304
+SW_50,0.5,0.5,How many sets of dry-weather tires can a driver use during a race weekend?,0.8,1.0,1,0.9947202247286699,0.6916891
+SW_50,0.7,0.30000000000000004,How many sets of dry-weather tires can a driver use during a race weekend?,0.8,1.0,1,0.9947202247286699,0.6916891
+SW_20,0.3,0.7,How many sets of dry-weather tires can a driver use during a race weekend?,0.8,1.0,1,0.9987647062417966,0.6658515
+SW_20,0.5,0.5,How many sets of dry-weather tires can a driver use during a race weekend?,0.6,1.0,1,0.9987526460153346,0.6563009
+SW_20,0.7,0.30000000000000004,How many sets of dry-weather tires can a driver use during a race weekend?,0.6,1.0,1,0.9987044802207558,0.6176445
+SW_0,0.3,0.7,How many sets of dry-weather tires can a driver use during a race weekend?,0.4,1.0,1,1.0,0.6205031
+SW_0,0.5,0.5,How many sets of dry-weather tires can a driver use during a race weekend?,0.4,1.0,1,1.0,0.57987356
+SW_0,0.7,0.30000000000000004,How many sets of dry-weather tires can a driver use during a race weekend?,0.4,1.0,1,0.9850499445282882,0.57987356
+Semantic,0.3,0.7,How many sets of dry-weather tires can a driver use during a race weekend?,0.8,1.0,1,0.9953705245695935,0.70213664
+Semantic,0.5,0.5,How many sets of dry-weather tires can a driver use during a race weekend?,0.4,1.0,1,0.9583896030304968,0.57668746
+Semantic,0.7,0.30000000000000004,How many sets of dry-weather tires can a driver use during a race weekend?,0.2,1.0,1,0.9757574655528856,0.5308477
+Topic,0.3,0.7,How many sets of dry-weather tires can a driver use during a race weekend?,0.8,1.0,1,1.0,0.7144742
+Topic,0.5,0.5,How many sets of dry-weather tires can a driver use during a race weekend?,0.6,1.0,1,0.9831405120377997,0.6394069
+Topic,0.7,0.30000000000000004,How many sets of dry-weather tires can a driver use during a race weekend?,0.4,1.0,1,0.958292143195252,0.59793395
+SW_50,0.3,0.7,What is the maximum number of cars allowed on the Formula One grid?,0.0,0.0,0,0.9962313465899549,0.45929083
+SW_50,0.5,0.5,What is the maximum number of cars allowed on the Formula One grid?,0.0,0.0,0,0.8930456774771136,0.45614982
+SW_50,0.7,0.30000000000000004,What is the maximum number of cars allowed on the Formula One grid?,0.2,0.2,1,0.8607003502400181,0.47800526
+SW_20,0.3,0.7,What is the maximum number of cars allowed on the Formula One grid?,0.0,0.0,0,0.9803494812352188,0.47539282
+SW_20,0.5,0.5,What is the maximum number of cars allowed on the Formula One grid?,0.0,0.0,0,0.9486523722980412,0.4852419
+SW_20,0.7,0.30000000000000004,What is the maximum number of cars allowed on the Formula One grid?,0.0,0.0,0,0.9541258917855479,0.4841692
+SW_0,0.3,0.7,What is the maximum number of cars allowed on the Formula One grid?,0.0,0.0,0,0.9734888647380673,0.475669
+SW_0,0.5,0.5,What is the maximum number of cars allowed on the Formula One grid?,0.0,0.0,0,0.965564316436143,0.450457
+SW_0,0.7,0.30000000000000004,What is the maximum number of cars allowed on the Formula One grid?,0.0,0.0,0,0.9601533285126903,0.45782176
+Semantic,0.3,0.7,What is the maximum number of cars allowed on the Formula One grid?,0.2,0.2,1,0.8604106644057589,0.5802628
+Semantic,0.5,0.5,What is the maximum number of cars allowed on the Formula One grid?,0.0,0.0,0,0.9108983772237984,0.43990174
+Semantic,0.7,0.30000000000000004,What is the maximum number of cars allowed on the Formula One grid?,0.0,0.0,0,0.8970507751374783,0.43135905
+Topic,0.3,0.7,What is the maximum number of cars allowed on the Formula One grid?,0.2,0.2,1,0.842205410443111,0.49097833
+Topic,0.5,0.5,What is the maximum number of cars allowed on the Formula One grid?,0.0,0.0,0,0.9145665373525914,0.4194683
+Topic,0.7,0.30000000000000004,What is the maximum number of cars allowed on the Formula One grid?,0.0,0.0,0,0.9447971363903704,0.38147202
+SW_50,0.3,0.7,What is the 107% rule in Formula One qualifying?,0.4,0.5,1,0.8857634025021103,0.5342698
+SW_50,0.5,0.5,What is the 107% rule in Formula One qualifying?,0.4,1.0,1,0.988967260144486,0.5342698
+SW_50,0.7,0.30000000000000004,What is the 107% rule in Formula One qualifying?,0.4,1.0,1,0.9777150130182829,0.53146046
+SW_20,0.3,0.7,What is the 107% rule in Formula One qualifying?,0.2,0.5,1,0.9022435234775799,0.4740018
+SW_20,0.5,0.5,What is the 107% rule in Formula One qualifying?,0.2,1.0,1,0.9941101050984743,0.437707
+SW_20,0.7,0.30000000000000004,What is the 107% rule in Formula One qualifying?,0.2,1.0,1,0.9988592290255257,0.437707
+SW_0,0.3,0.7,What is the 107% rule in Formula One qualifying?,0.2,0.5,1,0.9021956360425699,0.42064777
+SW_0,0.5,0.5,What is the 107% rule in Formula One qualifying?,0.2,1.0,1,0.9957102977542309,0.41121516
+SW_0,0.7,0.30000000000000004,What is the 107% rule in Formula One qualifying?,0.2,1.0,1,0.9920954186012199,0.41121522
+Semantic,0.3,0.7,What is the 107% rule in Formula One qualifying?,0.0,0.0,0,0.8795542182560797,0.31379905
+Semantic,0.5,0.5,What is the 107% rule in Formula One qualifying?,0.0,0.0,0,0.9347052138800921,0.23675558
+Semantic,0.7,0.30000000000000004,What is the 107% rule in Formula One qualifying?,0.0,0.0,0,0.9347052138800921,0.23675558
+Topic,0.3,0.7,What is the 107% rule in Formula One qualifying?,0.0,0.0,0,0.8995713737986909,0.26984736
+Topic,0.5,0.5,What is the 107% rule in Formula One qualifying?,0.0,0.0,0,0.9271457539584596,0.24627385
+Topic,0.7,0.30000000000000004,What is the 107% rule in Formula One qualifying?,0.0,0.0,0,0.9271457539584596,0.24627385
+SW_50,0.3,0.7,What is the typical race distance for a Formula One Grand Prix?,0.2,0.5,1,0.955769523636308,0.48015085
+SW_50,0.5,0.5,What is the typical race distance for a Formula One Grand Prix?,0.2,0.5,1,0.9481750233579661,0.4023129
+SW_50,0.7,0.30000000000000004,What is the typical race distance for a Formula One Grand Prix?,0.2,0.3333333333333333,1,0.9216554844623528,0.4023129
+SW_20,0.3,0.7,What is the typical race distance for a Formula One Grand Prix?,0.2,0.5,1,0.9269269491042988,0.47452536
+SW_20,0.5,0.5,What is the typical race distance for a Formula One Grand Prix?,0.2,0.5,1,0.9269269491042988,0.47452536
+SW_20,0.7,0.30000000000000004,What is the typical race distance for a Formula One Grand Prix?,0.2,0.2,1,0.851343367426895,0.41192603
+SW_0,0.3,0.7,What is the typical race distance for a Formula One Grand Prix?,0.2,1.0,1,0.9629731895355937,0.48320112
+SW_0,0.5,0.5,What is the typical race distance for a Formula One Grand Prix?,0.2,1.0,1,0.9927291058465167,0.38802794
+SW_0,0.7,0.30000000000000004,What is the typical race distance for a Formula One Grand Prix?,0.2,0.5,1,0.9040946741027239,0.3880279
+Semantic,0.3,0.7,What is the typical race distance for a Formula One Grand Prix?,0.4,1.0,1,0.9987593676119133,0.5340775
+Semantic,0.5,0.5,What is the typical race distance for a Formula One Grand Prix?,0.4,1.0,1,1.0,0.5340775
+Semantic,0.7,0.30000000000000004,What is the typical race distance for a Formula One Grand Prix?,0.4,1.0,1,1.0,0.44725186
+Topic,0.3,0.7,What is the typical race distance for a Formula One Grand Prix?,0.2,1.0,1,0.9928607827953944,0.40477332
+Topic,0.5,0.5,What is the typical race distance for a Formula One Grand Prix?,0.2,1.0,1,0.9665903703621661,0.3752491
+Topic,0.7,0.30000000000000004,What is the typical race distance for a Formula One Grand Prix?,0.2,1.0,1,0.9750688975182235,0.36566544
+SW_50,0.3,0.7,What is the exception to the standard race distance for the Monaco Grand Prix?,0.8,1.0,1,0.9982943494778931,0.67014855
+SW_50,0.5,0.5,What is the exception to the standard race distance for the Monaco Grand Prix?,0.8,1.0,1,0.9956356733613628,0.67014855
+SW_50,0.7,0.30000000000000004,What is the exception to the standard race distance for the Monaco Grand Prix?,0.6,1.0,1,0.9972947093384685,0.653761
+SW_20,0.3,0.7,What is the exception to the standard race distance for the Monaco Grand Prix?,0.8,1.0,1,0.9993834210697787,0.673823
+SW_20,0.5,0.5,What is the exception to the standard race distance for the Monaco Grand Prix?,0.8,1.0,1,0.9962955170233146,0.673823
+SW_20,0.7,0.30000000000000004,What is the exception to the standard race distance for the Monaco Grand Prix?,0.6,1.0,1,0.9922491750486911,0.6657895
+SW_0,0.3,0.7,What is the exception to the standard race distance for the Monaco Grand Prix?,0.2,1.0,1,0.9977359910683247,0.60404956
+SW_0,0.5,0.5,What is the exception to the standard race distance for the Monaco Grand Prix?,0.2,1.0,1,0.9970231057773612,0.60404956
+SW_0,0.7,0.30000000000000004,What is the exception to the standard race distance for the Monaco Grand Prix?,0.2,1.0,1,1.0,0.57286704
+Semantic,0.3,0.7,What is the exception to the standard race distance for the Monaco Grand Prix?,0.8,1.0,1,1.0,0.7000476
+Semantic,0.5,0.5,What is the exception to the standard race distance for the Monaco Grand Prix?,0.8,1.0,1,0.9978281626596966,0.7000476
+Semantic,0.7,0.30000000000000004,What is the exception to the standard race distance for the Monaco Grand Prix?,0.6,1.0,1,0.9834769947341415,0.61990607
+Topic,0.3,0.7,What is the exception to the standard race distance for the Monaco Grand Prix?,0.8,1.0,1,1.0,0.65124524
+Topic,0.5,0.5,What is the exception to the standard race distance for the Monaco Grand Prix?,0.8,1.0,1,0.9977310364337642,0.65124524
+Topic,0.7,0.30000000000000004,What is the exception to the standard race distance for the Monaco Grand Prix?,0.6,1.0,1,0.9982686374413093,0.5866452
+SW_50,0.3,0.7,What happens when a driver is being lapped in Formula One?,0.4,1.0,1,0.9608719707581841,0.49040383
+SW_50,0.5,0.5,What happens when a driver is being lapped in Formula One?,0.4,1.0,1,1.0,0.4710749
+SW_50,0.7,0.30000000000000004,What happens when a driver is being lapped in Formula One?,0.4,1.0,1,0.9588631991250084,0.45266026
+SW_20,0.3,0.7,What happens when a driver is being lapped in Formula One?,0.2,1.0,1,0.982572745071079,0.4205534
+SW_20,0.5,0.5,What happens when a driver is being lapped in Formula One?,0.2,1.0,1,0.9961962210442881,0.3680333
+SW_20,0.7,0.30000000000000004,What happens when a driver is being lapped in Formula One?,0.2,1.0,1,0.9494963879600449,0.38578817
+SW_0,0.3,0.7,What happens when a driver is being lapped in Formula One?,0.2,1.0,1,0.9597869463505095,0.455571
+SW_0,0.5,0.5,What happens when a driver is being lapped in Formula One?,0.2,1.0,1,1.0,0.4146749
+SW_0,0.7,0.30000000000000004,What happens when a driver is being lapped in Formula One?,0.2,1.0,1,0.9876882189055445,0.395346
+Semantic,0.3,0.7,What happens when a driver is being lapped in Formula One?,0.2,0.5,1,0.9023760210722721,0.48025638
+Semantic,0.5,0.5,What happens when a driver is being lapped in Formula One?,0.2,0.5,1,0.9231681519203015,0.41289148
+Semantic,0.7,0.30000000000000004,What happens when a driver is being lapped in Formula One?,0.2,0.5,1,0.9231681519203015,0.41289148
+Topic,0.3,0.7,What happens when a driver is being lapped in Formula One?,0.2,0.3333333333333333,1,0.9109553657521919,0.488242
+Topic,0.5,0.5,What happens when a driver is being lapped in Formula One?,0.2,0.5,1,0.9067274790147221,0.44005376
+Topic,0.7,0.30000000000000004,What happens when a driver is being lapped in Formula One?,0.2,0.5,1,0.8939357659121687,0.44005376
+SW_50,0.3,0.7,When was the last non-championship Formula One race held?,1.0,1.0,1,0.9573840280751849,0.66114455
+SW_50,0.5,0.5,When was the last non-championship Formula One race held?,1.0,1.0,1,0.9529057821196985,0.6611445
+SW_50,0.7,0.30000000000000004,When was the last non-championship Formula One race held?,1.0,1.0,1,0.956488842578269,0.66114455
+SW_20,0.3,0.7,When was the last non-championship Formula One race held?,0.8,1.0,1,0.9611130284226036,0.64172924
+SW_20,0.5,0.5,When was the last non-championship Formula One race held?,0.8,1.0,1,0.9543987550444026,0.64172924
+SW_20,0.7,0.30000000000000004,When was the last non-championship Formula One race held?,0.8,1.0,1,0.9580090429267922,0.6417292
+SW_0,0.3,0.7,When was the last non-championship Formula One race held?,0.6,1.0,1,0.9780712899437218,0.61554754
+SW_0,0.5,0.5,When was the last non-championship Formula One race held?,0.6,1.0,1,0.976872808381364,0.61554754
+SW_0,0.7,0.30000000000000004,When was the last non-championship Formula One race held?,0.6,1.0,1,0.9764955547312288,0.60006773
+Semantic,0.3,0.7,When was the last non-championship Formula One race held?,0.6,1.0,1,0.971038206780095,0.69135106
+Semantic,0.5,0.5,When was the last non-championship Formula One race held?,0.8,1.0,1,0.9624553922854618,0.68389285
+Semantic,0.7,0.30000000000000004,When was the last non-championship Formula One race held?,0.6,1.0,1,0.9811316555149553,0.58309823
+Topic,0.3,0.7,When was the last non-championship Formula One race held?,0.8,1.0,1,0.9469270322195602,0.6852352
+Topic,0.5,0.5,When was the last non-championship Formula One race held?,0.8,1.0,1,0.9367789347662608,0.6598651
+Topic,0.7,0.30000000000000004,When was the last non-championship Formula One race held?,0.8,1.0,1,0.9241442002680852,0.6598651
+SW_50,0.3,0.7,Which driver is the only woman to win a Formula One race of any kind?,0.4,1.0,1,0.9988257690329525,0.5994891
+SW_50,0.5,0.5,Which driver is the only woman to win a Formula One race of any kind?,0.4,1.0,1,0.9980967635805971,0.60555536
+SW_50,0.7,0.30000000000000004,Which driver is the only woman to win a Formula One race of any kind?,0.4,1.0,1,1.0,0.6030566
+SW_20,0.3,0.7,Which driver is the only woman to win a Formula One race of any kind?,0.2,1.0,1,0.9999807444396476,0.59176075
+SW_20,0.5,0.5,Which driver is the only woman to win a Formula One race of any kind?,0.2,1.0,1,1.0,0.59176075
+SW_20,0.7,0.30000000000000004,Which driver is the only woman to win a Formula One race of any kind?,0.2,1.0,1,1.0,0.54535806
+SW_0,0.3,0.7,Which driver is the only woman to win a Formula One race of any kind?,0.2,1.0,1,0.9962141244343574,0.570158
+SW_0,0.5,0.5,Which driver is the only woman to win a Formula One race of any kind?,0.2,1.0,1,0.9999656925802725,0.57015806
+SW_0,0.7,0.30000000000000004,Which driver is the only woman to win a Formula One race of any kind?,0.2,1.0,1,0.9926649473539151,0.5208832
+Semantic,0.3,0.7,Which driver is the only woman to win a Formula One race of any kind?,0.4,1.0,1,0.9975955281253557,0.6689745
+Semantic,0.5,0.5,Which driver is the only woman to win a Formula One race of any kind?,0.4,1.0,1,0.9974188927756862,0.6580735
+Semantic,0.7,0.30000000000000004,Which driver is the only woman to win a Formula One race of any kind?,0.4,1.0,1,0.9993542937233814,0.6277973
+Topic,0.3,0.7,Which driver is the only woman to win a Formula One race of any kind?,0.4,1.0,1,0.9945661093288826,0.669206
+Topic,0.5,0.5,Which driver is the only woman to win a Formula One race of any kind?,0.4,1.0,1,0.9974188927756862,0.6580735
+Topic,0.7,0.30000000000000004,Which driver is the only woman to win a Formula One race of any kind?,0.4,1.0,1,0.9990747569631115,0.64839566

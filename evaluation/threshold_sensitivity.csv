@@ -1,0 +1,251 @@
+Threshold,Method,Question,Precision@5,MRR,Hit@5,nDCG,Avg_Similarity
+0.4,SW_50,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,1.0,1.0,1,0.9996249012337968,0.68881464
+0.4,SW_20,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,1.0,1.0,1,0.996639750392522,0.67767626
+0.4,SW_0,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,1.0,1.0,1,0.9994625321961779,0.641156
+0.4,Semantic,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,1.0,1.0,1,0.9985901696674663,0.8034655
+0.4,Topic,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,1.0,1.0,1,0.997499877784927,0.6435843
+0.4,SW_50,How many consecutive Constructors' Championships did Mercedes win?,1.0,1.0,1,0.994302819465524,0.5613378
+0.4,SW_20,How many consecutive Constructors' Championships did Mercedes win?,0.8,1.0,1,0.996743496710496,0.5225576
+0.4,SW_0,How many consecutive Constructors' Championships did Mercedes win?,0.8,1.0,1,0.9886073018497024,0.4874862
+0.4,Semantic,How many consecutive Constructors' Championships did Mercedes win?,1.0,1.0,1,0.9421052779704308,0.6821933
+0.4,Topic,How many consecutive Constructors' Championships did Mercedes win?,0.8,1.0,1,0.9413309194513788,0.52824825
+0.4,SW_50,Who won the first Drivers' World Championship?,1.0,1.0,1,0.9977033275071552,0.5138239
+0.4,SW_20,Who won the first Drivers' World Championship?,1.0,1.0,1,0.9912361129997682,0.49533814
+0.4,SW_0,Who won the first Drivers' World Championship?,0.8,1.0,1,1.0,0.46654707
+0.4,Semantic,Who won the first Drivers' World Championship?,0.8,1.0,1,0.8983136190774866,0.54171216
+0.4,Topic,Who won the first Drivers' World Championship?,0.6,1.0,1,0.9928186833041689,0.39920884
+0.4,SW_50,What major technological development did Bugatti introduce to Formula One?,0.6,1.0,1,0.9767496769950277,0.39670473
+0.4,SW_20,What major technological development did Bugatti introduce to Formula One?,0.2,1.0,1,0.9754881228298568,0.34072918
+0.4,SW_0,What major technological development did Bugatti introduce to Formula One?,0.4,1.0,1,0.9472867003414921,0.35652414
+0.4,Semantic,What major technological development did Bugatti introduce to Formula One?,0.2,1.0,1,1.0,0.44885954
+0.4,Topic,What major technological development did Bugatti introduce to Formula One?,0.2,0.2,1,0.9092616073259228,0.3481409
+0.4,SW_50,When was the Constructors' Championship added to Formula One?,0.2,1.0,1,0.9890082740445436,0.352415
+0.4,SW_20,When was the Constructors' Championship added to Formula One?,0.0,0.0,0,0.9951887401732145,0.35685763
+0.4,SW_0,When was the Constructors' Championship added to Formula One?,0.0,0.0,0,0.9975631781892458,0.32500592
+0.4,Semantic,When was the Constructors' Championship added to Formula One?,0.4,1.0,1,0.9852886030172484,0.5060317
+0.4,Topic,When was the Constructors' Championship added to Formula One?,0.2,0.25,1,0.9207569998990001,0.33598906
+0.4,SW_50,When did the FIA ban many electronic driver aids?,0.8,1.0,1,0.9921228899937304,0.517978
+0.4,SW_20,When did the FIA ban many electronic driver aids?,1.0,1.0,1,0.9993918527945863,0.5063642
+0.4,SW_0,When did the FIA ban many electronic driver aids?,0.8,1.0,1,0.9968129431779446,0.48427868
+0.4,Semantic,When did the FIA ban many electronic driver aids?,1.0,1.0,1,0.8959724398582368,0.65757114
+0.4,Topic,When did the FIA ban many electronic driver aids?,1.0,1.0,1,0.907618338441634,0.63556576
+0.4,SW_50,Which driver is the only woman to win a Formula One race of any kind?,1.0,1.0,1,0.9980967635805971,0.60555536
+0.4,SW_20,Which driver is the only woman to win a Formula One race of any kind?,1.0,1.0,1,1.0,0.59176075
+0.4,SW_0,Which driver is the only woman to win a Formula One race of any kind?,1.0,1.0,1,0.9999656925802725,0.57015806
+0.4,Semantic,Which driver is the only woman to win a Formula One race of any kind?,1.0,1.0,1,0.9974188927756862,0.6580735
+0.4,Topic,Which driver is the only woman to win a Formula One race of any kind?,1.0,1.0,1,0.9974188927756862,0.6580735
+0.4,SW_50,What happens when a driver is being lapped in Formula One?,0.6,1.0,1,1.0,0.4710749
+0.4,SW_20,What happens when a driver is being lapped in Formula One?,0.4,1.0,1,0.9961962210442881,0.3680333
+0.4,SW_0,What happens when a driver is being lapped in Formula One?,0.4,1.0,1,1.0,0.4146749
+0.4,Semantic,What happens when a driver is being lapped in Formula One?,0.4,1.0,1,0.9231681519203015,0.41289148
+0.4,Topic,What happens when a driver is being lapped in Formula One?,0.6,1.0,1,0.9067274790147221,0.44005376
+0.4,SW_50,How many championships did Williams win in the 1980s and 1990s?,0.8,1.0,1,0.9959913593023029,0.4835176
+0.4,SW_20,How many championships did Williams win in the 1980s and 1990s?,0.8,1.0,1,0.9955514769767939,0.48938093
+0.4,SW_0,How many championships did Williams win in the 1980s and 1990s?,0.8,1.0,1,0.9753264137149039,0.4881627
+0.4,Semantic,How many championships did Williams win in the 1980s and 1990s?,0.8,1.0,1,0.9280639349645398,0.5098198
+0.4,Topic,How many championships did Williams win in the 1980s and 1990s?,0.4,1.0,1,0.9976308651173138,0.34236735
+0.4,SW_50,How many sets of dry-weather tires can a driver use during a race weekend?,1.0,1.0,1,0.9947202247286699,0.6916891
+0.4,SW_20,How many sets of dry-weather tires can a driver use during a race weekend?,1.0,1.0,1,0.9987526460153346,0.6563009
+0.4,SW_0,How many sets of dry-weather tires can a driver use during a race weekend?,0.8,1.0,1,1.0,0.57987356
+0.4,Semantic,How many sets of dry-weather tires can a driver use during a race weekend?,0.8,1.0,1,0.9583896030304968,0.57668746
+0.4,Topic,How many sets of dry-weather tires can a driver use during a race weekend?,0.8,1.0,1,0.9831405120377997,0.6394069
+0.5,SW_50,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,1.0,1.0,1,0.9996249012337968,0.68881464
+0.5,SW_20,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,1.0,1.0,1,0.996639750392522,0.67767626
+0.5,SW_0,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,1.0,1.0,1,0.9994625321961779,0.641156
+0.5,Semantic,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,1.0,1.0,1,0.9985901696674663,0.8034655
+0.5,Topic,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,0.8,1.0,1,0.997499877784927,0.6435843
+0.5,SW_50,How many consecutive Constructors' Championships did Mercedes win?,0.8,1.0,1,0.994302819465524,0.5613378
+0.5,SW_20,How many consecutive Constructors' Championships did Mercedes win?,0.8,1.0,1,0.996743496710496,0.5225576
+0.5,SW_0,How many consecutive Constructors' Championships did Mercedes win?,0.4,1.0,1,0.9886073018497024,0.4874862
+0.5,Semantic,How many consecutive Constructors' Championships did Mercedes win?,1.0,1.0,1,0.9421052779704308,0.6821933
+0.5,Topic,How many consecutive Constructors' Championships did Mercedes win?,0.8,1.0,1,0.9413309194513788,0.52824825
+0.5,SW_50,Who won the first Drivers' World Championship?,0.6,1.0,1,0.9977033275071552,0.5138239
+0.5,SW_20,Who won the first Drivers' World Championship?,0.6,1.0,1,0.9912361129997682,0.49533814
+0.5,SW_0,Who won the first Drivers' World Championship?,0.4,1.0,1,1.0,0.46654707
+0.5,Semantic,Who won the first Drivers' World Championship?,0.2,0.5,1,0.8983136190774866,0.54171216
+0.5,Topic,Who won the first Drivers' World Championship?,0.0,0.0,0,0.9928186833041689,0.39920884
+0.5,SW_50,What major technological development did Bugatti introduce to Formula One?,0.4,1.0,1,0.9767496769950277,0.39670473
+0.5,SW_20,What major technological development did Bugatti introduce to Formula One?,0.2,1.0,1,0.9754881228298568,0.34072918
+0.5,SW_0,What major technological development did Bugatti introduce to Formula One?,0.2,1.0,1,0.9472867003414921,0.35652414
+0.5,Semantic,What major technological development did Bugatti introduce to Formula One?,0.2,1.0,1,1.0,0.44885954
+0.5,Topic,What major technological development did Bugatti introduce to Formula One?,0.2,0.2,1,0.9092616073259228,0.3481409
+0.5,SW_50,When was the Constructors' Championship added to Formula One?,0.0,0.0,0,0.9890082740445436,0.352415
+0.5,SW_20,When was the Constructors' Championship added to Formula One?,0.0,0.0,0,0.9951887401732145,0.35685763
+0.5,SW_0,When was the Constructors' Championship added to Formula One?,0.0,0.0,0,0.9975631781892458,0.32500592
+0.5,Semantic,When was the Constructors' Championship added to Formula One?,0.4,1.0,1,0.9852886030172484,0.5060317
+0.5,Topic,When was the Constructors' Championship added to Formula One?,0.0,0.0,0,0.9207569998990001,0.33598906
+0.5,SW_50,When did the FIA ban many electronic driver aids?,0.4,1.0,1,0.9921228899937304,0.517978
+0.5,SW_20,When did the FIA ban many electronic driver aids?,0.4,1.0,1,0.9993918527945863,0.5063642
+0.5,SW_0,When did the FIA ban many electronic driver aids?,0.2,1.0,1,0.9968129431779446,0.48427868
+0.5,Semantic,When did the FIA ban many electronic driver aids?,0.8,0.5,1,0.8959724398582368,0.65757114
+0.5,Topic,When did the FIA ban many electronic driver aids?,0.6,1.0,1,0.907618338441634,0.63556576
+0.5,SW_50,Which driver is the only woman to win a Formula One race of any kind?,1.0,1.0,1,0.9980967635805971,0.60555536
+0.5,SW_20,Which driver is the only woman to win a Formula One race of any kind?,0.8,1.0,1,1.0,0.59176075
+0.5,SW_0,Which driver is the only woman to win a Formula One race of any kind?,0.8,1.0,1,0.9999656925802725,0.57015806
+0.5,Semantic,Which driver is the only woman to win a Formula One race of any kind?,0.8,1.0,1,0.9974188927756862,0.6580735
+0.5,Topic,Which driver is the only woman to win a Formula One race of any kind?,0.8,1.0,1,0.9974188927756862,0.6580735
+0.5,SW_50,What happens when a driver is being lapped in Formula One?,0.6,1.0,1,1.0,0.4710749
+0.5,SW_20,What happens when a driver is being lapped in Formula One?,0.2,1.0,1,0.9961962210442881,0.3680333
+0.5,SW_0,What happens when a driver is being lapped in Formula One?,0.4,1.0,1,1.0,0.4146749
+0.5,Semantic,What happens when a driver is being lapped in Formula One?,0.2,0.5,1,0.9231681519203015,0.41289148
+0.5,Topic,What happens when a driver is being lapped in Formula One?,0.4,0.5,1,0.9067274790147221,0.44005376
+0.5,SW_50,How many championships did Williams win in the 1980s and 1990s?,0.4,1.0,1,0.9959913593023029,0.4835176
+0.5,SW_20,How many championships did Williams win in the 1980s and 1990s?,0.6,1.0,1,0.9955514769767939,0.48938093
+0.5,SW_0,How many championships did Williams win in the 1980s and 1990s?,0.6,0.5,1,0.9753264137149039,0.4881627
+0.5,Semantic,How many championships did Williams win in the 1980s and 1990s?,0.4,1.0,1,0.9280639349645398,0.5098198
+0.5,Topic,How many championships did Williams win in the 1980s and 1990s?,0.2,1.0,1,0.9976308651173138,0.34236735
+0.5,SW_50,How many sets of dry-weather tires can a driver use during a race weekend?,1.0,1.0,1,0.9947202247286699,0.6916891
+0.5,SW_20,How many sets of dry-weather tires can a driver use during a race weekend?,1.0,1.0,1,0.9987526460153346,0.6563009
+0.5,SW_0,How many sets of dry-weather tires can a driver use during a race weekend?,0.8,1.0,1,1.0,0.57987356
+0.5,Semantic,How many sets of dry-weather tires can a driver use during a race weekend?,0.6,1.0,1,0.9583896030304968,0.57668746
+0.5,Topic,How many sets of dry-weather tires can a driver use during a race weekend?,0.8,1.0,1,0.9831405120377997,0.6394069
+0.6,SW_50,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,0.8,1.0,1,0.9996249012337968,0.68881464
+0.6,SW_20,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,1.0,1.0,1,0.996639750392522,0.67767626
+0.6,SW_0,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,0.6,1.0,1,0.9994625321961779,0.641156
+0.6,Semantic,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,1.0,1.0,1,0.9985901696674663,0.8034655
+0.6,Topic,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,0.8,1.0,1,0.997499877784927,0.6435843
+0.6,SW_50,How many consecutive Constructors' Championships did Mercedes win?,0.2,1.0,1,0.994302819465524,0.5613378
+0.6,SW_20,How many consecutive Constructors' Championships did Mercedes win?,0.2,1.0,1,0.996743496710496,0.5225576
+0.6,SW_0,How many consecutive Constructors' Championships did Mercedes win?,0.2,1.0,1,0.9886073018497024,0.4874862
+0.6,Semantic,How many consecutive Constructors' Championships did Mercedes win?,0.8,0.5,1,0.9421052779704308,0.6821933
+0.6,Topic,How many consecutive Constructors' Championships did Mercedes win?,0.2,0.2,1,0.9413309194513788,0.52824825
+0.6,SW_50,Who won the first Drivers' World Championship?,0.0,0.0,0,0.9977033275071552,0.5138239
+0.6,SW_20,Who won the first Drivers' World Championship?,0.0,0.0,0,0.9912361129997682,0.49533814
+0.6,SW_0,Who won the first Drivers' World Championship?,0.0,0.0,0,1.0,0.46654707
+0.6,Semantic,Who won the first Drivers' World Championship?,0.2,0.5,1,0.8983136190774866,0.54171216
+0.6,Topic,Who won the first Drivers' World Championship?,0.0,0.0,0,0.9928186833041689,0.39920884
+0.6,SW_50,What major technological development did Bugatti introduce to Formula One?,0.0,0.0,0,0.9767496769950277,0.39670473
+0.6,SW_20,What major technological development did Bugatti introduce to Formula One?,0.2,1.0,1,0.9754881228298568,0.34072918
+0.6,SW_0,What major technological development did Bugatti introduce to Formula One?,0.0,0.0,0,0.9472867003414921,0.35652414
+0.6,Semantic,What major technological development did Bugatti introduce to Formula One?,0.2,1.0,1,1.0,0.44885954
+0.6,Topic,What major technological development did Bugatti introduce to Formula One?,0.0,0.0,0,0.9092616073259228,0.3481409
+0.6,SW_50,When was the Constructors' Championship added to Formula One?,0.0,0.0,0,0.9890082740445436,0.352415
+0.6,SW_20,When was the Constructors' Championship added to Formula One?,0.0,0.0,0,0.9951887401732145,0.35685763
+0.6,SW_0,When was the Constructors' Championship added to Formula One?,0.0,0.0,0,0.9975631781892458,0.32500592
+0.6,Semantic,When was the Constructors' Championship added to Formula One?,0.2,1.0,1,0.9852886030172484,0.5060317
+0.6,Topic,When was the Constructors' Championship added to Formula One?,0.0,0.0,0,0.9207569998990001,0.33598906
+0.6,SW_50,When did the FIA ban many electronic driver aids?,0.4,1.0,1,0.9921228899937304,0.517978
+0.6,SW_20,When did the FIA ban many electronic driver aids?,0.0,0.0,0,0.9993918527945863,0.5063642
+0.6,SW_0,When did the FIA ban many electronic driver aids?,0.2,1.0,1,0.9968129431779446,0.48427868
+0.6,Semantic,When did the FIA ban many electronic driver aids?,0.4,0.5,1,0.8959724398582368,0.65757114
+0.6,Topic,When did the FIA ban many electronic driver aids?,0.4,1.0,1,0.907618338441634,0.63556576
+0.6,SW_50,Which driver is the only woman to win a Formula One race of any kind?,0.4,1.0,1,0.9980967635805971,0.60555536
+0.6,SW_20,Which driver is the only woman to win a Formula One race of any kind?,0.2,1.0,1,1.0,0.59176075
+0.6,SW_0,Which driver is the only woman to win a Formula One race of any kind?,0.2,1.0,1,0.9999656925802725,0.57015806
+0.6,Semantic,Which driver is the only woman to win a Formula One race of any kind?,0.4,1.0,1,0.9974188927756862,0.6580735
+0.6,Topic,Which driver is the only woman to win a Formula One race of any kind?,0.4,1.0,1,0.9974188927756862,0.6580735
+0.6,SW_50,What happens when a driver is being lapped in Formula One?,0.4,1.0,1,1.0,0.4710749
+0.6,SW_20,What happens when a driver is being lapped in Formula One?,0.2,1.0,1,0.9961962210442881,0.3680333
+0.6,SW_0,What happens when a driver is being lapped in Formula One?,0.2,1.0,1,1.0,0.4146749
+0.6,Semantic,What happens when a driver is being lapped in Formula One?,0.2,0.5,1,0.9231681519203015,0.41289148
+0.6,Topic,What happens when a driver is being lapped in Formula One?,0.2,0.5,1,0.9067274790147221,0.44005376
+0.6,SW_50,How many championships did Williams win in the 1980s and 1990s?,0.0,0.0,0,0.9959913593023029,0.4835176
+0.6,SW_20,How many championships did Williams win in the 1980s and 1990s?,0.0,0.0,0,0.9955514769767939,0.48938093
+0.6,SW_0,How many championships did Williams win in the 1980s and 1990s?,0.0,0.0,0,0.9753264137149039,0.4881627
+0.6,Semantic,How many championships did Williams win in the 1980s and 1990s?,0.2,0.5,1,0.9280639349645398,0.5098198
+0.6,Topic,How many championships did Williams win in the 1980s and 1990s?,0.2,1.0,1,0.9976308651173138,0.34236735
+0.6,SW_50,How many sets of dry-weather tires can a driver use during a race weekend?,0.8,1.0,1,0.9947202247286699,0.6916891
+0.6,SW_20,How many sets of dry-weather tires can a driver use during a race weekend?,0.6,1.0,1,0.9987526460153346,0.6563009
+0.6,SW_0,How many sets of dry-weather tires can a driver use during a race weekend?,0.4,1.0,1,1.0,0.57987356
+0.6,Semantic,How many sets of dry-weather tires can a driver use during a race weekend?,0.4,1.0,1,0.9583896030304968,0.57668746
+0.6,Topic,How many sets of dry-weather tires can a driver use during a race weekend?,0.6,1.0,1,0.9831405120377997,0.6394069
+0.7,SW_50,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,0.6,1.0,1,0.9996249012337968,0.68881464
+0.7,SW_20,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,0.4,1.0,1,0.996639750392522,0.67767626
+0.7,SW_0,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,0.4,1.0,1,0.9994625321961779,0.641156
+0.7,Semantic,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,1.0,1.0,1,0.9985901696674663,0.8034655
+0.7,Topic,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,0.4,1.0,1,0.997499877784927,0.6435843
+0.7,SW_50,How many consecutive Constructors' Championships did Mercedes win?,0.0,0.0,0,0.994302819465524,0.5613378
+0.7,SW_20,How many consecutive Constructors' Championships did Mercedes win?,0.0,0.0,0,0.996743496710496,0.5225576
+0.7,SW_0,How many consecutive Constructors' Championships did Mercedes win?,0.0,0.0,0,0.9886073018497024,0.4874862
+0.7,Semantic,How many consecutive Constructors' Championships did Mercedes win?,0.4,0.5,1,0.9421052779704308,0.6821933
+0.7,Topic,How many consecutive Constructors' Championships did Mercedes win?,0.0,0.0,0,0.9413309194513788,0.52824825
+0.7,SW_50,Who won the first Drivers' World Championship?,0.0,0.0,0,0.9977033275071552,0.5138239
+0.7,SW_20,Who won the first Drivers' World Championship?,0.0,0.0,0,0.9912361129997682,0.49533814
+0.7,SW_0,Who won the first Drivers' World Championship?,0.0,0.0,0,1.0,0.46654707
+0.7,Semantic,Who won the first Drivers' World Championship?,0.2,0.5,1,0.8983136190774866,0.54171216
+0.7,Topic,Who won the first Drivers' World Championship?,0.0,0.0,0,0.9928186833041689,0.39920884
+0.7,SW_50,What major technological development did Bugatti introduce to Formula One?,0.0,0.0,0,0.9767496769950277,0.39670473
+0.7,SW_20,What major technological development did Bugatti introduce to Formula One?,0.0,0.0,0,0.9754881228298568,0.34072918
+0.7,SW_0,What major technological development did Bugatti introduce to Formula One?,0.0,0.0,0,0.9472867003414921,0.35652414
+0.7,Semantic,What major technological development did Bugatti introduce to Formula One?,0.2,1.0,1,1.0,0.44885954
+0.7,Topic,What major technological development did Bugatti introduce to Formula One?,0.0,0.0,0,0.9092616073259228,0.3481409
+0.7,SW_50,When was the Constructors' Championship added to Formula One?,0.0,0.0,0,0.9890082740445436,0.352415
+0.7,SW_20,When was the Constructors' Championship added to Formula One?,0.0,0.0,0,0.9951887401732145,0.35685763
+0.7,SW_0,When was the Constructors' Championship added to Formula One?,0.0,0.0,0,0.9975631781892458,0.32500592
+0.7,Semantic,When was the Constructors' Championship added to Formula One?,0.2,1.0,1,0.9852886030172484,0.5060317
+0.7,Topic,When was the Constructors' Championship added to Formula One?,0.0,0.0,0,0.9207569998990001,0.33598906
+0.7,SW_50,When did the FIA ban many electronic driver aids?,0.0,0.0,0,0.9921228899937304,0.517978
+0.7,SW_20,When did the FIA ban many electronic driver aids?,0.0,0.0,0,0.9993918527945863,0.5063642
+0.7,SW_0,When did the FIA ban many electronic driver aids?,0.0,0.0,0,0.9968129431779446,0.48427868
+0.7,Semantic,When did the FIA ban many electronic driver aids?,0.2,0.5,1,0.8959724398582368,0.65757114
+0.7,Topic,When did the FIA ban many electronic driver aids?,0.2,0.3333333333333333,1,0.907618338441634,0.63556576
+0.7,SW_50,Which driver is the only woman to win a Formula One race of any kind?,0.2,1.0,1,0.9980967635805971,0.60555536
+0.7,SW_20,Which driver is the only woman to win a Formula One race of any kind?,0.2,1.0,1,1.0,0.59176075
+0.7,SW_0,Which driver is the only woman to win a Formula One race of any kind?,0.2,1.0,1,0.9999656925802725,0.57015806
+0.7,Semantic,Which driver is the only woman to win a Formula One race of any kind?,0.4,1.0,1,0.9974188927756862,0.6580735
+0.7,Topic,Which driver is the only woman to win a Formula One race of any kind?,0.4,1.0,1,0.9974188927756862,0.6580735
+0.7,SW_50,What happens when a driver is being lapped in Formula One?,0.2,1.0,1,1.0,0.4710749
+0.7,SW_20,What happens when a driver is being lapped in Formula One?,0.0,0.0,0,0.9961962210442881,0.3680333
+0.7,SW_0,What happens when a driver is being lapped in Formula One?,0.2,1.0,1,1.0,0.4146749
+0.7,Semantic,What happens when a driver is being lapped in Formula One?,0.2,0.5,1,0.9231681519203015,0.41289148
+0.7,Topic,What happens when a driver is being lapped in Formula One?,0.2,0.5,1,0.9067274790147221,0.44005376
+0.7,SW_50,How many championships did Williams win in the 1980s and 1990s?,0.0,0.0,0,0.9959913593023029,0.4835176
+0.7,SW_20,How many championships did Williams win in the 1980s and 1990s?,0.0,0.0,0,0.9955514769767939,0.48938093
+0.7,SW_0,How many championships did Williams win in the 1980s and 1990s?,0.0,0.0,0,0.9753264137149039,0.4881627
+0.7,Semantic,How many championships did Williams win in the 1980s and 1990s?,0.2,0.5,1,0.9280639349645398,0.5098198
+0.7,Topic,How many championships did Williams win in the 1980s and 1990s?,0.0,0.0,0,0.9976308651173138,0.34236735
+0.7,SW_50,How many sets of dry-weather tires can a driver use during a race weekend?,0.8,1.0,1,0.9947202247286699,0.6916891
+0.7,SW_20,How many sets of dry-weather tires can a driver use during a race weekend?,0.4,1.0,1,0.9987526460153346,0.6563009
+0.7,SW_0,How many sets of dry-weather tires can a driver use during a race weekend?,0.4,1.0,1,1.0,0.57987356
+0.7,Semantic,How many sets of dry-weather tires can a driver use during a race weekend?,0.2,1.0,1,0.9583896030304968,0.57668746
+0.7,Topic,How many sets of dry-weather tires can a driver use during a race weekend?,0.4,1.0,1,0.9831405120377997,0.6394069
+0.8,SW_50,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,0.0,0.0,0,0.9996249012337968,0.68881464
+0.8,SW_20,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,0.0,0.0,0,0.996639750392522,0.67767626
+0.8,SW_0,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,0.0,0.0,0,0.9994625321961779,0.641156
+0.8,Semantic,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,0.4,1.0,1,0.9985901696674663,0.8034655
+0.8,Topic,How many consecutive Drivers' Championships did Michael Schumacher win with Ferrari?,0.0,0.0,0,0.997499877784927,0.6435843
+0.8,SW_50,How many consecutive Constructors' Championships did Mercedes win?,0.0,0.0,0,0.994302819465524,0.5613378
+0.8,SW_20,How many consecutive Constructors' Championships did Mercedes win?,0.0,0.0,0,0.996743496710496,0.5225576
+0.8,SW_0,How many consecutive Constructors' Championships did Mercedes win?,0.0,0.0,0,0.9886073018497024,0.4874862
+0.8,Semantic,How many consecutive Constructors' Championships did Mercedes win?,0.2,0.5,1,0.9421052779704308,0.6821933
+0.8,Topic,How many consecutive Constructors' Championships did Mercedes win?,0.0,0.0,0,0.9413309194513788,0.52824825
+0.8,SW_50,Who won the first Drivers' World Championship?,0.0,0.0,0,0.9977033275071552,0.5138239
+0.8,SW_20,Who won the first Drivers' World Championship?,0.0,0.0,0,0.9912361129997682,0.49533814
+0.8,SW_0,Who won the first Drivers' World Championship?,0.0,0.0,0,1.0,0.46654707
+0.8,Semantic,Who won the first Drivers' World Championship?,0.2,0.5,1,0.8983136190774866,0.54171216
+0.8,Topic,Who won the first Drivers' World Championship?,0.0,0.0,0,0.9928186833041689,0.39920884
+0.8,SW_50,What major technological development did Bugatti introduce to Formula One?,0.0,0.0,0,0.9767496769950277,0.39670473
+0.8,SW_20,What major technological development did Bugatti introduce to Formula One?,0.0,0.0,0,0.9754881228298568,0.34072918
+0.8,SW_0,What major technological development did Bugatti introduce to Formula One?,0.0,0.0,0,0.9472867003414921,0.35652414
+0.8,Semantic,What major technological development did Bugatti introduce to Formula One?,0.2,1.0,1,1.0,0.44885954
+0.8,Topic,What major technological development did Bugatti introduce to Formula One?,0.0,0.0,0,0.9092616073259228,0.3481409
+0.8,SW_50,When was the Constructors' Championship added to Formula One?,0.0,0.0,0,0.9890082740445436,0.352415
+0.8,SW_20,When was the Constructors' Championship added to Formula One?,0.0,0.0,0,0.9951887401732145,0.35685763
+0.8,SW_0,When was the Constructors' Championship added to Formula One?,0.0,0.0,0,0.9975631781892458,0.32500592
+0.8,Semantic,When was the Constructors' Championship added to Formula One?,0.2,1.0,1,0.9852886030172484,0.5060317
+0.8,Topic,When was the Constructors' Championship added to Formula One?,0.0,0.0,0,0.9207569998990001,0.33598906
+0.8,SW_50,When did the FIA ban many electronic driver aids?,0.0,0.0,0,0.9921228899937304,0.517978
+0.8,SW_20,When did the FIA ban many electronic driver aids?,0.0,0.0,0,0.9993918527945863,0.5063642
+0.8,SW_0,When did the FIA ban many electronic driver aids?,0.0,0.0,0,0.9968129431779446,0.48427868
+0.8,Semantic,When did the FIA ban many electronic driver aids?,0.2,0.5,1,0.8959724398582368,0.65757114
+0.8,Topic,When did the FIA ban many electronic driver aids?,0.2,0.3333333333333333,1,0.907618338441634,0.63556576
+0.8,SW_50,Which driver is the only woman to win a Formula One race of any kind?,0.0,0.0,0,0.9980967635805971,0.60555536
+0.8,SW_20,Which driver is the only woman to win a Formula One race of any kind?,0.0,0.0,0,1.0,0.59176075
+0.8,SW_0,Which driver is the only woman to win a Formula One race of any kind?,0.0,0.0,0,0.9999656925802725,0.57015806
+0.8,Semantic,Which driver is the only woman to win a Formula One race of any kind?,0.4,1.0,1,0.9974188927756862,0.6580735
+0.8,Topic,Which driver is the only woman to win a Formula One race of any kind?,0.4,1.0,1,0.9974188927756862,0.6580735
+0.8,SW_50,What happens when a driver is being lapped in Formula One?,0.0,0.0,0,1.0,0.4710749
+0.8,SW_20,What happens when a driver is being lapped in Formula One?,0.0,0.0,0,0.9961962210442881,0.3680333
+0.8,SW_0,What happens when a driver is being lapped in Formula One?,0.0,0.0,0,1.0,0.4146749
+0.8,Semantic,What happens when a driver is being lapped in Formula One?,0.0,0.0,0,0.9231681519203015,0.41289148
+0.8,Topic,What happens when a driver is being lapped in Formula One?,0.0,0.0,0,0.9067274790147221,0.44005376
+0.8,SW_50,How many championships did Williams win in the 1980s and 1990s?,0.0,0.0,0,0.9959913593023029,0.4835176
+0.8,SW_20,How many championships did Williams win in the 1980s and 1990s?,0.0,0.0,0,0.9955514769767939,0.48938093
+0.8,SW_0,How many championships did Williams win in the 1980s and 1990s?,0.0,0.0,0,0.9753264137149039,0.4881627
+0.8,Semantic,How many championships did Williams win in the 1980s and 1990s?,0.2,0.5,1,0.9280639349645398,0.5098198
+0.8,Topic,How many championships did Williams win in the 1980s and 1990s?,0.0,0.0,0,0.9976308651173138,0.34236735
+0.8,SW_50,How many sets of dry-weather tires can a driver use during a race weekend?,0.0,0.0,0,0.9947202247286699,0.6916891
+0.8,SW_20,How many sets of dry-weather tires can a driver use during a race weekend?,0.0,0.0,0,0.9987526460153346,0.6563009
+0.8,SW_0,How many sets of dry-weather tires can a driver use during a race weekend?,0.0,0.0,0,1.0,0.57987356
+0.8,Semantic,How many sets of dry-weather tires can a driver use during a race weekend?,0.2,1.0,1,0.9583896030304968,0.57668746
+0.8,Topic,How many sets of dry-weather tires can a driver use during a race weekend?,0.2,1.0,1,0.9831405120377997,0.6394069
