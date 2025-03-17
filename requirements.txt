@@ -7,3 +7,6 @@ pdfplumber
 beautifulsoup4
 requests
 langchain-text-splitters
+nltk
+rank_bm25 
+"chonkie[semantic,openai]"
